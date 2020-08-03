@@ -1,0 +1,1745 @@
+body {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+.h3, h3 {
+  font-size: 1.5rem;
+}
+
+.h4, h4 {
+  font-size: 1.25rem;
+}
+
+#main-container {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+#navbarText {
+  background-color: #5f3857;
+}
+
+#side-nav {
+  padding-top: 50px;
+  padding-left: 0px;
+  min-height: 100vh;
+  position: fixed;
+  width: 280px;
+  border-right: 1px solid silver;
+  text-align: center;
+}
+
+#content-container {
+  margin-left: 280px;
+  padding: 0.5em;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fefefe;
+}
+
+#side-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 80px;
+}
+
+#side-nav li {
+  margin: 0.5em;
+  text-align: right;
+  border-bottom: 1px solid silver;
+}
+
+#side-nav li a {
+  text-transform: uppercase;
+  color: #333;
+}
+
+.navbar {
+  display: none;
+}
+
+.ws-side-info {
+  margin-top: 10px;
+
+}
+
+.ws-side-info i {
+  color: #946bb0;
+  font-size: 16pt;
+  margin: 0.5em;
+}
+
+.fa {
+  color: #4a94a6;
+}
+
+.ws-line {
+  text-align: middle;
+}
+
+
+.ws-purpose {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.ws-width {
+  max-width: 700px;
+  margin: auto;  
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-fluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ws-purpose-item {
+  color: black;
+  min-height: 280px;
+  background-color: #e9e9e9;
+}
+
+.ws-purpose-item p {
+  padding: 2em;
+}
+
+.ws-80 {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.ws-button {
+  display: block;
+  padding: 0.5em;
+  color: white;
+  background-color: #6f3994;
+  text-decoration: none;
+  margin: auto;
+  margin-top: 30px;
+  width: 200px;
+  border-radius: 0.5em;
+  text-align: center;
+}
+
+.ws-button-2 {
+  display: inline-block;
+  padding: 0.5em;
+  color: white;
+  background-color: #6f3994;
+  text-decoration: none;
+  margin: auto;
+  margin-top: 30px;
+  width: 150px;
+  border-radius: 0.5em;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.ws-button:hover, .ws-button-2:hover {
+  text-decoration: none;
+  color: #d3b7e7;
+}
+
+.ws-promise {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.ws-promise-item {
+  padding: 4em;
+  background-color: #955894;
+  text-align: center;
+  color: white;
+}
+
+.ws-before-after {
+  padding-top: 5em;
+  background-color: white;
+  height: 200px;
+}
+
+.before {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.ws-team {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.ws-team-item {
+  padding: 3em;
+  background-color: #ab84bd;
+  color: white;
+  min-height: 280px;
+}
+
+.ws-team-item2 {
+  background-color: #ab84bd;
+  color: white;
+  min-height: 280px;
+}
+
+.ws-team-item2 p {
+  padding: 3em;
+}
+
+.ws-image-placeholder {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.ws-partner {
+  background-color: #e0f0f2 !important;
+}
+
+.ws-partner-item {
+  padding: 3em;
+  min-height: 280px;
+  border-right: 1px solid #f2f2f3;
+}
+
+.ws-treatment {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.ws-treatment-item {
+  padding: 3em;
+  background-color: white;
+  min-height: 300px;
+}
+
+.ws-contact {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+  margin-left: -15px;
+  margin-right: -15px;
+  background-color: #d0a7cf;
+}
+
+.ws-contact-2 {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+  margin: auto;
+  background-color: #d0a7cf;
+}
+
+.ws-contact i, .ws-contact-2 i {
+  font-size: 16pt;
+  margin: 0.5em;
+  color: white;
+}
+
+.ws-contact-item {
+  padding: 2em;
+  background-color: white;
+  min-height: 280px;
+  border-right: 1px solid #f2f2f3;
+}
+
+.ws-contact-grid {
+  display: grid;
+  grid-template-columns: 50px auto;
+  margin-top: 5px;
+}
+
+.ws-contact-grid i {
+  color: #d0a7cf;
+  font-size: 16pt;
+  text-align: center;
+}
+
+.fa-mobile-phone {
+  font-size: 20pt !important;
+}
+
+.car-cap {
+  width: 70%;
+  font-size: 30pt;
+  font-weight: 700;
+  line-height: 1.0;
+  color:#fff;
+  text-align:center;
+  -webkit-transform:translate(0, 1000%);
+  /* -ms-transform:translate(0, 100%); */
+  transform:translate(-4%, 450%);
+  background-color: rgba(100,59,99,0.75);
+  margin-left: 30px;
+}
+
+.ws-bg1 {
+  color: white;
+  font-size: 13pt;
+  background-color: #cfa6ce;
+}
+
+.ws-bg2 {
+  color: white;
+  background-color: #7fa9b3;
+  padding-top: 10%;
+}
+
+.ws-bg3 {
+  color: white;
+  background-color: #946bb0;
+}
+
+.ws-bg4 {
+  background-color: #c4a8c5;
+}
+
+.ws-bg5 {
+  color: white;
+  background-color: #9e799d;
+}
+
+.ws-bgg1 {
+  background-color: #e4e4e48c;
+}
+
+.ws-bgg2 {
+  background-color: #dbdbdb;
+}
+
+/*Clinic Background*/
+.ws-bg40 {
+  color: white;
+  background-color: #c0a9d1; 
+}
+
+.ws-bg41 {
+  background-color: #E5E5f7;  
+}
+
+/* Treatment Cover Image */
+
+.ws-bg6 {
+  color: white;
+  height: 500px;
+  background-image: url(../images/home/braces.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg7 {
+  color: white;
+  height: 500px;  
+  background-image: url(../images/types/clear2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg8 {
+  color: white;
+  height: 500px;
+  background-image: url(../images/types/mbraces2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg9 {
+  color: white;
+  height: 500px;
+  background-image: url(../images/types/twin-block-appliance2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg10 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/types/twin-block-appliance.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg11 {
+  color: white;
+  height: 400px;
+  background-image: url(../images/types/twin-block-appliance3.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg12 {
+  color: white;
+  min-height: 500px;
+  background-image: url(../images/types/herbst-appliance2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg13 {
+  color: white;
+  height: 400px;
+  background-image: url(../images/types/reverse-headgear.jpg);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg14 {
+  color: white;
+  height: 400px;
+  background-image: url(../images/types/reverse-headgear2.jpg);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Clinic Background Image */
+
+.ws-bg21 {
+  color: white;
+  height: 500px;
+  background-image: url(../images/about-us/Synergy_R_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg22 {
+  color: white;
+  height: 500px;
+  background-image: url(../images/about-us/abt2-237x300.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg23 {
+  color: white;
+  height: 500px;
+  background-image: url(../images/about-us/abt1-237x300.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg24 {
+  color: white;
+  height: 500px;
+  background-image: url(../images/about-us/what2-300x200.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg25 {
+  color: white;
+  height: 500px;
+  background-image: url(../images/about-us/m1-300x198.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg26 {
+  color: white;
+  height: 500px;
+  background-image: url(../images/about-us/m2-300x198.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg27 {
+  color: white;
+  height: 500px;
+  background-image: url(../images/about-us/With-patient-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg28 {
+  color: white;
+  height: 500px;
+  background-image: url(../images/about-us/With-patient-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg29 {
+  color: white;
+  height: 500px;
+  background-image: url(../images/our-team/Photos-118-e-1-300x280.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg30 {
+  color: white;
+  height: 500px;
+  background-image: url(../images/our-team/abt3-300x201.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg31 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg32 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg33 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg34 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg35 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg36 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg37 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg38 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg39 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg48 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg42 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg43 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg44 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg45 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg46 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg47 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg49 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf9.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg50 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af9.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg51 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf10.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg52 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af10.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg53 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf11.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg54 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af11.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg55 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf12.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg56 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af12.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg57 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf13.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg58 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af13.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg59 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf14.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg60 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af14.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg69 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf15.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg70 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af15.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg71 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf16.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg72 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af16.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg73 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf17.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg74 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af17.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg75 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf18.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg76 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af18.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg77 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf19.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg78 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af19.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg79 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf20.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg80 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af20.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg81 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf21.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg82 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af21.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg83 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf22.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg84 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af22.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg85 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf23.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg86 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af23.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg87 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf24.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg88 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af24.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg89 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf25.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg90 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af25.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg91 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/large-25.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -10px;
+}
+
+.ws-bg92 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf26.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg93 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af26.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -10px;
+}
+
+.ws-bg94 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf27.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg95 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af27.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg96 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/large-27.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -10px;
+}
+
+.ws-bg97 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf28.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg98 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af28.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -10px;
+}
+
+.ws-bg99 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf29.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg100 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af29.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -10px;
+}
+
+.ws-bg101 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf30.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg102 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af30.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg103 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf31.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg104 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af31.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg105 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf32.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg106 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af32.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg107 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/bf33.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg108 {
+  color: white;
+  height: 300px;
+  background-image: url(../images/gallery/af33.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg109 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/gallery/crossbite-kids.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg110 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/gallery/crossbite-kids2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg111 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/gallery/diastema-child.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg112 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/gallery/diastema-child2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg113 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/gallery/deepbite-child.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg114 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/gallery/deepbite-child2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg115 {
+  color: white;
+  min-height: 500px;
+  background-image: url(../images/gallery/jaw-disrepancy-child2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg116 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/gallery/jaw-lower.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg117 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/gallery/young1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg118 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/gallery/young2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg119 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/about-us/m1-300x198.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.of-bg1 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/office-tour/waiting-area.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.of-bg2 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/office-tour/waiting-area2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.of-bg3 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/office-tour/play-area.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.of-bg4 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/office-tour/reception-area.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.of-bg5 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/office-tour/treatment-area.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.of-bg6 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/office-tour/treatment-area2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.of-bg7 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/office-tour/garden.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.of-bg8 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/office-tour/garden2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.of-bg9 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/office-tour/garden3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.of-bg10 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/office-tour/X-ray.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.of-bg11 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/office-tour/lab.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.of-bg12 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/office-tour/treatment-planning.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.dodont-bg1 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/do-dont/do1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+}
+
+.dodont-bg2 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/do-dont/brush.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dodont-bg3 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/do-dont/loosening.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dodont-bg4 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/do-dont/care.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.old-bg1 {
+  color: white;
+  height: 500px;
+  background-image: url(../images/old/mbrace.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.old-bg2 {
+  color: white;
+  min-height: 500px;
+  background-image: url(../images/old/advance.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.old-bg3 {
+  color: white;
+  min-height: 500px;
+  background-image: url(../images/old/surgical.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.old-bg4 {
+  color: white;
+  min-height: 500px;
+  background-image: url(../images/old/teeth.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.old-bg5 {
+  color: white;
+  min-height: 500px;
+  background-image: url(../images/old/jaw.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.old-bg6 {
+  color: white;
+  min-height: 500px;
+  background-image: url(../images/old/woman-braces.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.old-bg7 {
+  color: white;
+  min-height: 500px;
+  background-image: url(../images/old/after.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ws-officetour {
+  padding-top: 7em;
+  background-color: white;
+  height: 200px;
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+.general-dentistry {
+  width: 100%;
+  height: 100%;
+}
+
+/*Home Page*/
+.carousel-bg1 {
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-image: url(../images/home/bg-1n.jpg);
+  background-size: cover;
+  background-position: center 30%;;
+}
+
+.carousel-bg2 {
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-image: url(../images/home/bg-2n.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel-bg3 {
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-image: url(../images/home/bg-3n.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel-bg4 {
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-image: url(../images/home/bg-4n.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/*Contact Us*/
+.carousel-bg6 {
+  min-height: 500px;
+}
+
+.carousel-bg7 {
+  min-height: 500px;
+}
+
+.carousel-bg8 {
+  min-height: 500px;
+}
+
+.carousel-bg9 {
+  min-height: 500px;
+}
+
+.carousel-bg10 {
+  min-height: 500px;
+}
+
+h1 {
+  font-size: 23px;
+}
+
+p6 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  margin-right: 500px;
+  text-shadow: 3px 2px rgb(48, 46, 46);
+}
+
+p5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  text-shadow: 2px 1px rgb(48, 46, 46)
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  margin-right: 700px;
+  text-shadow: 3px 2px rgb(48, 46, 46);
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin-right: 750px;
+  text-shadow: 3px 2px rgb(48, 46, 46);
+}
+
+.contact-carousel {
+  background-image: url(../images/contact-us/imageonline-co-darkenimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 20%;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+/*New Home Page Background*/
+.ws-bg61 {
+  color: white;
+  font-size: 15pt;
+  background-image: url(../images/home/braces.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg62 {
+  color: white;
+  font-size: 15pt;
+  background-image: url(../images/home/bg-3n.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg63 {
+  color: white;
+  font-size: 15pt;
+  background-image: url(../images/home/building.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 20%;
+}
+
+.ws-bg64 {
+  color: white;
+  font-size: 15pt;
+  background-image: url(../images/contact-us/contact_20.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 30%;
+}
+
+.ws-bg65 {
+  color: white;
+  font-size: 15pt;
+  background-image: url(../images/our-team/Photos-129e-768x438.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg66 {
+  color: white;
+  font-size: 15pt;
+  background-image: url(../images/our-team/staff1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg67 {
+  color: white;
+  font-size: 15pt;
+  background-image: url(../images/our-team/staff2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bg68 {
+  color: white;
+  font-size: 15pt;
+  background-image: url(../images/our-team/staff3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-contact-container {
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.quote {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  line-height: 20pt;
+  font-size: 17pt;
+  -webkit-transform:translate(0, 1000%);
+  transform:translate(-4%, -40%);
+}
+
+.quote-bg {
+-webkit-transform: translate(0, 1000%);
+transform: translate(-4%, -40%);
+background-color: black;
+opacity: 0.8;
+padding: 15px;
+}
+
+.cited {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 11pt;
+  margin-top: 10pt;
+  text-align: left;
+}
+
+.greview {
+  margin-top: 10px;
+  max-width: 20%;
+  max-height: 30%; 
+  filter: brightness(0) invert(1);
+   -webkit-transform:translate(0, 1000%);
+  /* -ms-transform:translate(0, 100%); */
+  transform:translate(-220%, -85%);
+}
+
+p10 {
+  font-size: 11pt;
+  padding-bottom: 6px;
+  border-bottom: 2px solid cyan;
+}
+
+.loc-pad {
+  padding-bottom: 20px;
+}
+
+.loc-pad2 {
+  padding-bottom: 0px;
+}
+
+.loc-pad3 {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.loc-pad4 {
+  padding-bottom: 0px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.iconc {
+  color: #4a94a6;
+}
+
+.qqvbed-tJHJj {
+  background-color: #26beb2 !important;
+  position: relative !important;
+}
+
+.i4ewOd-pzNkMb-haAclf {
+  display: none !important;
+}
+
+.page-footer{
+  /* background-color: #43ADFF; */
+  /* background-color: silver; */
+  color: gray;
+}
+
+.footer-copyright .footer-link{
+  color: gray;
+  text-decoration: none;
+}
+
+@import url("mobile.css");
+
+
+.submenu{
+  display:none;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.submenu li {
+  border-bottom: none !important;
+  list-style: none;
+}
+
+.submenu > li > a {
+  text-transform: none !important;
+  color: white;
+}
+
+.nav-item:hover > ul{
+  display:block;
+}
+
+.fa-chevron-circle-right {
+  font-size: 20px !important;
+  color: white;
+}
+
+.chevron-kids {
+  color: #bfa9d0 !important;
+  font-size: 25px !important;
+}
+
+.chevron-kids2, .chevron-dodont {
+  color: #bfa9d0 !important;
+  font-size: 20px !important;
+}

@@ -1,0 +1,227 @@
+@media screen and (max-width: 40.0rem) {
+  .row-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    background-position: center 50%; 
+  }
+  
+  .carousel-bg2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/wong&sim/bg1.jpg);
+    background-position: left 20%;
+  }
+
+  .carousel-bg3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/wong&sim/bg2.jpg);
+    background-position: center top;
+  }
+  
+  .carousel-bg4 {
+    background-repeat: no-repeat;
+    background-image: url(../images/wong&sim/bg3.jpg);
+    background-position: left 20%;
+    background-size: cover;
+  }
+
+  .carousel-caption {
+    color: black !important;
+  }
+
+  .car-cap {
+     width:100%;
+      font-size: 20pt;
+      font-weight: 800;
+      color:#fff;
+      text-align:center;
+      bottom:100%;
+      -webkit-transform:translate(0, 100%);
+      -ms-transform:translate(0, 100%);
+      transform:translate(0, 700%);
+  }
+
+  .car-font {
+    color: black;
+  }
+
+  .ws-bg60 {
+    background-color: aqua;
+  }
+
+  /*Treatment Images*/
+  .ws-bg6 {
+    height: 300px;
+    background-position: center 100%;
+  }
+
+  .ws-bg7 {
+    height: 300px;
+    background-position: center 100%;
+  }
+
+  .ws-bg8 {
+    height: 300px;
+    background-position: center 100%;
+  }
+
+  .ws-bg9 {
+    height: 300px;
+    background-position: center 100%;
+  }
+
+  .ws-bg10 {
+    height: 300px;
+    background-position: center 100%;
+    background-size: 100%;
+  }
+
+  .ws-bg11 {
+    height: 300px;
+    background-position: center 100%;
+    background-size: 100%;
+  }
+
+  /*Treatment Word*/
+  .ws-bg30 {
+    height: 350px;
+    color: white;
+    background-color: #038984;
+    background-size: cover;
+    background-position: center 100%;
+    padding-top: 10%;
+  }
+
+  .ws-bg31 {
+    height: 350px;
+    color: white;
+    background-color:#097d78;
+    background-size: cover;
+    background-position: center 100%; 
+    padding-top: 10%;
+  }
+
+  .ws-bg32 {
+    height: 350px;
+    color: white;
+    background-color:#066847;
+    background-size: cover;
+    background-position: center 100%; 
+    padding-top: 10%;
+  }
+
+  .ws-bg33, .ws-bg34, .ws-bg35,  .ws-bg36, .ws-bg37, .ws-bg38, .ws-bg39 {
+    height: 350px;
+    color: white;
+  }
+
+  /*Review*/
+
+  .quote {
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    line-height: 18pt;
+    font-size: 14pt;
+    -webkit-transform:translate(0, 1000%);
+    transform:translate(-4%, -0%);
+  }
+
+
+  /*Clinic Images*/
+  .ws-bg21 {
+    min-height: 350px;
+    background-position: center 100%; 
+  }
+
+  .ws-bg22 {
+    min-height: 350px;
+    background-position: center 100%; 
+  }
+
+  .ws-bg23 {
+    min-height: 350px;
+    background-position: center 100%; 
+  }
+
+  .ws-bg24 {
+    min-height: 350px;
+    background-position: center 100%; 
+  }
+
+  .ws-bg25 {
+    min-height: 350px;
+    background-position: center 100%; 
+  }
+
+  .ws-bg26 {
+    min-height: 350px;
+    background-position: center 100%; 
+  }
+
+  .ws-bg27 {
+    min-height: 350px;
+    background-position: center 100%; 
+  }
+
+  .ws-bg28 {
+    min-height: 350px;
+    background-position: center 100%; 
+  }
+
+  .ws-bg29 {
+    min-height: 350px;
+    background-position: center 100%; 
+  }
+  
+  /*Contact Us*/
+  
+
+  #side-nav {
+    display: none;
+  }
+
+  #content-container {
+    margin-left: 0px;
+  }
+
+  .navbar {
+    border-radius-top: 0.2em;
+    background-color: #12beba !important;
+    display: block;
+    padding: 0px;
+  }
+
+  .navbar-header {
+    background-color: white;
+    border-bottom: 2px solid #7d3369;
+    margin: 0px;
+    padding: 0.5em;
+  }
+
+  .nav-item {
+    padding-left: 1em;
+  }
+
+  .navbar-brand {
+    padding: 0.5em;
+  }
+
+  .navbar-brand img {
+    margin-left: 20px;
+  }
+
+  .navbar-toggler {
+    float: right;
+    margin: 0.6em;
+  }
+
+  a.navbar-brand {
+    color: white;
+  }
+
+  a.nav-link {
+    color: white !important;
+  }
+}
+
