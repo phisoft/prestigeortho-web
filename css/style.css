@@ -193,6 +193,7 @@ body {
   background-color: #ab84bd;
   color: white;
   min-height: 280px;
+  text-align: center;
 }
 
 .ws-team-item2 p {
@@ -205,7 +206,7 @@ body {
 }
 
 .ws-partner {
-  background-color: #e0f0f2 !important;
+  background-color: #f0e0f2 !important;
 }
 
 .ws-partner-item {
@@ -473,7 +474,7 @@ body {
 
 .ws-bg27 {
   color: white;
-  height: 500px;
+  height: 400px;
   background-image: url(../images/about-us/With-patient-4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -482,7 +483,7 @@ body {
 
 .ws-bg28 {
   color: white;
-  height: 500px;
+  height: 400px;
   background-image: url(../images/about-us/With-patient-2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -1221,6 +1222,77 @@ body {
   background-size: 100%;
 }
 
+.ws-bg120 {
+  color: white;
+  height: 400px;
+  background-image: url(../images/home/smile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ws-bg121 {
+  color: white;
+  background-image: url(../images/home/cover-mouth.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ws-bg122 {
+  color: white;
+  height: 400px;
+  background-image: url(../images/home/xray.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ws-bg123 {
+  color: white;
+  height: 400px;
+  background-image: url(../images/home/confidence.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ws-bg124 {
+  color: white;
+  height: 400px;
+  background-image: url(../images/home/kids.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ws-bg125 {
+  color: white;
+  height: 400px;
+  background-image: url(../images/do-dont/soak.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ws-bg126 {
+  color: white;
+  height: 400px;
+  background-image: url(../images/do-dont/retainer.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ws-bg127 {
+  color: white;
+  height: 400px;
+  background-image: url(../images/do-dont/remove.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .of-bg1 {
   color: white;
   min-height: 300px;
@@ -1666,7 +1738,7 @@ p10 {
 }
 
 .loc-pad2 {
-  padding-bottom: 0px;
+  padding-bottom: 10px;
 }
 
 .loc-pad3 {
