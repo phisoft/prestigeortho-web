@@ -70,10 +70,6 @@ body {
   margin: 0.5em;
 }
 
-.fa {
-  color: #4a94a6;
-}
-
 .ws-line {
   text-align: middle;
 }
@@ -1293,6 +1289,82 @@ body {
   background-size: cover;
 }
 
+.ws-bg128 {
+  color: white;
+  height: 400px;
+  background-image: url(../images/do-dont/wax.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ws-bg129 {
+  color: white;
+  height: 400px;
+  background-image: url(../images/do-dont/braces-component.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ws-bg130 {
+  color: white;
+  height: 400px;
+  background-image: url(../images/do-dont/biteblock.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ws-bg131 {
+  color: white;
+  min-height: 230px;
+  background-image: url(../images/do-dont/braces-anatomy.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.visit-bg1 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/first-visit/Photos-061-e-300x217.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  border: 10px solid #946bb0;
+}
+
+.visit-bg2 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/first-visit/first2-300x266.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  border: 10px solid #e5e5f7;
+}
+
+.visit-bg3 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/first-visit/first4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  border: 10px solid #946bb0;
+}
+
+.visit-bg4 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/first-visit/finacing2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  border: 10px solid #946bb0;
+}
+
 .of-bg1 {
   color: white;
   min-height: 300px;
@@ -1574,7 +1646,7 @@ body {
 }
 
 h1 {
-  font-size: 23px;
+  font-size: 22px;
 }
 
 p6 {
@@ -1738,6 +1810,10 @@ p10 {
 }
 
 .loc-pad2 {
+  padding-bottom: 0px;
+}
+
+.loc-pad5 {
   padding-bottom: 10px;
 }
 
@@ -1759,7 +1835,7 @@ p10 {
 }
 
 .qqvbed-tJHJj {
-  background-color: #26beb2 !important;
+  background-color: #5f3857 !important;
   position: relative !important;
 }
 
