@@ -4,30 +4,35 @@
     flex-direction: column-reverse;
     background-position: center 50%; 
   }
-  
+
   .carousel-bg2 {
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../images/wong&sim/bg1.jpg);
-    background-position: left 20%;
+    background-image: url(../images/home/bg-2n.jpg);
+    background-position: center;
   }
 
   .carousel-bg3 {
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../images/wong&sim/bg2.jpg);
+    background-image: url(../images/home/bg-3n.jpg);
     background-position: center top;
   }
   
   .carousel-bg4 {
     background-repeat: no-repeat;
-    background-image: url(../images/wong&sim/bg3.jpg);
-    background-position: left 20%;
+    background-image: url(../images/home/bg-4n.jpg);
+    background-position: center 20%;
     background-size: cover;
   }
 
+  .pres-bg10 {
+    height: 500px;
+  }
+
+
   .carousel-caption {
-    color: black !important;
+    color: white !important;
   }
 
   .car-cap {
@@ -122,7 +127,7 @@
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     line-height: 18pt;
-    font-size: 14pt;
+    font-size: 11pt;
     -webkit-transform:translate(0, 1000%);
     transform:translate(-4%, -0%);
   }
@@ -207,13 +212,8 @@
     padding: 0.5em;
   }
 
-  .navbar-brand img {
-    margin-left: 20px;
-  }
-
   .navbar-toggler {
     float: right;
-    margin: 0.6em;
   }
 
   a.navbar-brand {
@@ -222,6 +222,11 @@
 
   a.nav-link {
     color: white !important;
+  }
+
+  .navbar-light .navbar-toggler {
+    color: #5f3857;
+    border-color: transparent;
   }
 }
 
