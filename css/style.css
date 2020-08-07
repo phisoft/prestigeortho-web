@@ -3,6 +3,10 @@ body {
   line-height: 1.5;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .h3, h3 {
   font-size: 1.5rem;
 }
@@ -99,7 +103,7 @@ body {
 .ws-purpose-item {
   color: black;
   min-height: 280px;
-  background-color: #e9e9e9;
+  background-color: #e6daec;
 }
 
 .ws-purpose-item p {
@@ -311,6 +315,43 @@ body {
   background-color: #9e799d;
 }
 
+.pres-bg6 {
+  color: white;
+  background-color: #8b748a;
+  height: 400px;
+}
+
+.pres-bg7 {
+  color: #7110b3;
+  background-color: white;
+  padding-bottom: 100px;
+}
+
+.pres-bg10 {
+  color: white;
+  background-color: #946bb0;
+  height: 400px;
+}
+
+.pres-bg8 {
+  color: white;
+  font-size: 15pt;
+  background-image: url(../images/types/mbraces.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pres-bg9 {
+  color: white;
+  font-size: 15pt;
+  background-image: url(../images/home/counseling.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+}
+
 .ws-bgg1 {
   background-color: #e4e4e48c;
 }
@@ -443,7 +484,7 @@ body {
 
 .ws-bg24 {
   color: white;
-  height: 500px;
+  height: 400px;
   background-image: url(../images/about-us/what2-300x200.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -1233,6 +1274,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 350px;
 }
 
 .ws-bg122 {
@@ -1300,7 +1342,7 @@ body {
 
 .ws-bg129 {
   color: white;
-  height: 400px;
+  height: 480px;
   background-image: url(../images/do-dont/braces-component.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -1768,7 +1810,7 @@ h2 {
   text-align: left;
   font-family: 'Roboto', sans-serif;
   line-height: 20pt;
-  font-size: 17pt;
+  font-size: 15pt;
   -webkit-transform:translate(0, 1000%);
   transform:translate(-4%, -40%);
 }
@@ -1890,4 +1932,81 @@ p10 {
 .chevron-kids2, .chevron-dodont {
   color: #bfa9d0 !important;
   font-size: 20px !important;
+}
+
+.line {
+  padding-top: 10px;
+}
+
+.line::before, .line::after {
+  display: block;
+  width: 45px;
+  height: 1px;
+  margin: 15px auto;
+  content: '';
+  background: white;
+}
+
+.line-black::before, .line-black::after {
+  display: block;
+  width: 45px;
+  height: 1px;
+  margin: 15px auto;
+  content: '';
+  background: black;
+}
+
+.subtitle {
+  text-align: center;
+  padding: 30px;
+  font-size: 18px;
+}
+
+.find-out-title-left {
+  text-align: right; 
+  padding-top: 50px; 
+  padding-right: 0;
+  padding-bottom: 30px;
+  font-weight: 700;
+}
+
+.find-out-title-right {
+  text-align: left; 
+  padding-top: 50px; 
+  padding-left: 0;
+  padding-bottom: 30px;
+  font-weight: 700;
+}
+
+.find-out-more {
+  float: right;
+  border: 1px solid;
+  padding: 15px;
+  color: #bfbfbf;
+}
+
+.find-out-more-right {
+  float: left;
+  border: 1px solid;
+  padding: 15px;
+  color: #bfbfbf;
+}
+
+.find-out-more:hover, .find-out-more-right:hover {
+  color: #7110b3;
+  text-decoration: none;
+}
+
+.padding-center {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.teeth {
+  color: #7110b3; 
+  font-size: 25px;
+}
+
+.line-2 {
+  line-height: 2;
 }
