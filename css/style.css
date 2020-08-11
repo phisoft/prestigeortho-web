@@ -276,17 +276,14 @@ html {
 }
 
 .car-cap {
-  width: 70%;
   font-size: 30pt;
   font-weight: 700;
   line-height: 1.0;
   color:#fff;
-  text-align:center;
+  text-align:right;
   -webkit-transform:translate(0, 1000%);
   /* -ms-transform:translate(0, 100%); */
   transform:translate(-4%, 450%);
-  background-color: rgba(100,59,99,0.75);
-  margin-left: 30px;
 }
 
 .ws-bg1 {
@@ -1637,7 +1634,7 @@ html {
 .carousel-bg1 {
   min-height: 500px;
   background-repeat: no-repeat;
-  background-image: url(../images/home/bg-1n.jpg);
+  background-image: url(../images/home/bg-1nn.jpg);
   background-size: cover;
   background-position: center 30%;;
 }
@@ -1645,7 +1642,7 @@ html {
 .carousel-bg2 {
   min-height: 500px;
   background-repeat: no-repeat;
-  background-image: url(../images/home/bg-2n.jpg);
+  background-image: url(../images/home/bg-2nn.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -1653,7 +1650,7 @@ html {
 .carousel-bg3 {
   min-height: 500px;
   background-repeat: no-repeat;
-  background-image: url(../images/home/bg-3n.jpg);
+  background-image: url(../images/home/bg-3nn.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -1661,7 +1658,7 @@ html {
 .carousel-bg4 {
   min-height: 500px;
   background-repeat: no-repeat;
-  background-image: url(../images/home/bg-4n.jpg);
+  background-image: url(../images/home/bg-4nn.jpg);
   background-position: center;
   background-size: cover;
 }
