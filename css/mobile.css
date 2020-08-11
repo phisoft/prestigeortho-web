@@ -8,20 +8,20 @@
   .carousel-bg2 {
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../images/home/bg-2n.jpg);
+    background-image: url(../images/home/bg-2nn.jpg);
     background-position: center;
   }
 
   .carousel-bg3 {
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../images/home/bg-3n.jpg);
+    background-image: url(../images/home/bg-3nn.jpg);
     background-position: center top;
   }
   
   .carousel-bg4 {
     background-repeat: no-repeat;
-    background-image: url(../images/home/bg-4n.jpg);
+    background-image: url(../images/home/bg-4nn.jpg);
     background-position: center 20%;
     background-size: cover;
   }
@@ -36,15 +36,16 @@
   }
 
   .car-cap {
-     width:100%;
-      font-size: 20pt;
-      font-weight: 800;
-      color:#fff;
-      text-align:center;
-      bottom:100%;
-      -webkit-transform:translate(0, 100%);
-      -ms-transform:translate(0, 100%);
-      transform:translate(0, 700%);
+    width:100%;
+    padding-right: 20px;
+    font-size: 20pt;
+    font-weight: 800;
+    color:#fff;
+    text-align:right;
+    bottom:100%;
+    -webkit-transform:translate(0, 100%);
+    -ms-transform:translate(0, 100%);
+    transform:translate(0, 700%);
   }
 
   .car-font {
