@@ -223,6 +223,17 @@ html {
   margin: auto;
 }
 
+.ws-treatment-header {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 100%;
+  margin: auto;
+  background-color: #0000009e;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
 .ws-treatment-item {
   padding: 3em;
   background-color: white;
@@ -284,6 +295,15 @@ html {
   -webkit-transform:translate(0, 1000%);
   /* -ms-transform:translate(0, 100%); */
   transform:translate(-4%, 450%);
+}
+
+.ws-bk1 {
+  color: white;
+    font-size: 13pt;
+    background-image: url(../images/old/old.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
 }
 
 .ws-bg1 {
@@ -349,8 +369,46 @@ html {
   height: 350px;
 }
 
+.ws-bggs1 {
+    color: white;
+    font-size: 13pt;
+    background-image: url(../images/young/kid.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
 .ws-bgg1 {
   background-color: #e4e4e48c;
+}
+
+.ws-bggg1 {
+  color: white;
+  font-size: 13pt;
+  background-image: url(../images/young/kid2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center
+}
+
+.ws-bggg2 {
+  color: white;
+  font-size: 13pt;
+  background-image: url(../images/young/kid3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center
+}
+
+.ws-promise-header {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 100%;
+  margin: auto;
+  background-color: #0000009e;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .ws-bgg2 {
@@ -372,7 +430,7 @@ html {
 .ws-bg6 {
   color: white;
   height: 500px;
-  background-image: url(../images/home/braces.jpg);
+  background-image: url(../images/home/braces3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1551,7 +1609,7 @@ html {
 .old-bg1 {
   color: white;
   height: 500px;
-  background-image: url(../images/old/mbrace.jpg);
+  background-image: url(../images/old/teenbraces3.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1560,7 +1618,7 @@ html {
 .old-bg2 {
   color: white;
   min-height: 500px;
-  background-image: url(../images/old/advance.jpg);
+  background-image: url(../images/old/bracesteen2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1569,7 +1627,7 @@ html {
 .old-bg3 {
   color: white;
   min-height: 500px;
-  background-image: url(../images/old/surgical.jpg);
+  background-image: url(../images/old/braces4.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1578,7 +1636,7 @@ html {
 .old-bg4 {
   color: white;
   min-height: 500px;
-  background-image: url(../images/old/teeth.jpg);
+  background-image: url(../images/old/orthoforteenagers.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1587,7 +1645,7 @@ html {
 .old-bg5 {
   color: white;
   min-height: 500px;
-  background-image: url(../images/old/jaw.jpg);
+  background-image: url(../images/old/braces6.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1596,7 +1654,7 @@ html {
 .old-bg6 {
   color: white;
   min-height: 500px;
-  background-image: url(../images/old/woman-braces.jpg);
+  background-image: url(../images/old/braces5.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1605,7 +1663,7 @@ html {
 .old-bg7 {
   color: white;
   min-height: 500px;
-  background-image: url(../images/old/after.jpg);
+  background-image: url(../images/old/orthodonticforteenagers.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1658,7 +1716,7 @@ html {
 .carousel-bg4 {
   min-height: 500px;
   background-repeat: no-repeat;
-  background-image: url(../images/home/bg-4nn.jpg);
+  background-image: url(../images/home/bg-5nn.jpg);
   background-position: center;
   background-size: cover;
 }
