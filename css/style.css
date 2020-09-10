@@ -1,5 +1,5 @@
 body {
-  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
   line-height: 1.5;
 }
 
@@ -69,7 +69,8 @@ html {
 }
 
 .ws-side-info i {
-  color: #946bb0;
+  /* color: #946bb0; */
+  color: #855ea2;
   font-size: 16pt;
   margin: 0.5em;
 }
@@ -320,7 +321,7 @@ html {
 
 .ws-bg3 {
   color: white;
-  background-color: #946bb0;
+  background-color: #855ea2;
 }
 
 .ws-bg4 {
@@ -1689,10 +1690,23 @@ html {
 }
 
 /*Home Page*/
+
+
+.top-right {
+  position: absolute;
+  bottom: 350px;
+  right: 1px;
+}
+
+.logo_style {
+  max-width: 100px;
+  max-height: 100px;
+}
+
 .carousel-bg1 {
   min-height: 500px;
   background-repeat: no-repeat;
-  background-image: url(../images/home/bg-1nn.jpg);
+  background-image: url(../images/home/bn-3.jpg);
   background-size: cover;
   background-position: center 30%;;
 }
@@ -1700,7 +1714,7 @@ html {
 .carousel-bg2 {
   min-height: 500px;
   background-repeat: no-repeat;
-  background-image: url(../images/home/bg-2nn.jpg);
+  background-image: url(../images/home/bn-2.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -1708,7 +1722,7 @@ html {
 .carousel-bg3 {
   min-height: 500px;
   background-repeat: no-repeat;
-  background-image: url(../images/home/bg-3nn.jpg);
+  background-image: url(../images/home/bn-1.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -1716,7 +1730,7 @@ html {
 .carousel-bg4 {
   min-height: 500px;
   background-repeat: no-repeat;
-  background-image: url(../images/home/bg-5nn.jpg);
+  background-image: url(../images/home/bn-5.jpg);
   background-position: center;
   background-size: cover;
 }
