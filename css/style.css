@@ -104,7 +104,7 @@ html {
 .ws-purpose-item {
   color: black;
   min-height: 280px;
-  background-color: #e6daec;
+  background-color: #c2a2cc;
 }
 
 .ws-purpose-item p {
@@ -247,7 +247,11 @@ html {
   text-align: center;
   margin-left: -15px;
   margin-right: -15px;
-  background-color: #d0a7cf;
+  background-color: #e295e3;
+}
+
+.contact-title {
+  color: #855ea2;
 }
 
 .ws-contact-2 {
@@ -261,14 +265,14 @@ html {
 .ws-contact i, .ws-contact-2 i {
   font-size: 16pt;
   margin: 0.5em;
-  color: white;
+  color: #855ea2;
 }
 
 .ws-contact-item {
   padding: 2em;
   background-color: white;
   min-height: 280px;
-  border-right: 1px solid #f2f2f3;
+  color: white;
 }
 
 .ws-contact-grid {
@@ -335,7 +339,7 @@ html {
 
 .pres-bg6 {
   color: white;
-  background-color: #8b748a;
+  background-color: #855ea2;
   height: 400px;
 }
 
@@ -347,8 +351,9 @@ html {
 
 .pres-bg10 {
   color: white;
-  background-color: #946bb0;
+  background-color: #855ea2;
   height: 400px;
+  border-left: 5px solid;
 }
 
 .pres-bg8 {
@@ -363,7 +368,7 @@ html {
 .pres-bg9 {
   color: white;
   font-size: 15pt;
-  background-image: url(../images/home/counseling.jpg);
+  background-image: url(../images/home/counseling2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -380,7 +385,7 @@ html {
 }
 
 .ws-bgg1 {
-  background-color: #e4e4e48c;
+  background-color: #855ea2;
 }
 
 .ws-bggg1 {
@@ -1326,7 +1331,7 @@ html {
 
 .ws-bg121 {
   color: white;
-  background-image: url(../images/home/cover-mouth.jpg);
+  background-image: url(../images/home/cover-mouth2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1703,6 +1708,11 @@ html {
   max-height: 100px;
 }
 
+.lgo {
+  max-width: 200px;
+  max-height: 200px;
+}
+
 .carousel-bg1 {
   min-height: 500px;
   background-repeat: no-repeat;
@@ -2072,7 +2082,7 @@ p10 {
 }
 
 .teeth {
-  color: #7110b3; 
+  color: #855ae2; 
   font-size: 25px;
 }
 
