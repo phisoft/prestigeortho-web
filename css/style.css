@@ -367,6 +367,12 @@ html {
   padding-bottom: 100px;
 }
 
+.pres-bg72 {
+  color: #7110b3;
+  background-color: white;
+  padding-bottom: 100px;
+}
+
 .pres-bg10 {
   color: white;
   background-color: #855ea2;
@@ -1941,7 +1947,7 @@ padding: 15px;
 p10 {
   font-size: 11pt;
   padding-bottom: 6px;
-  border-bottom: 2px solid cyan;
+  border-bottom: 2px solid #d0a7cf;
 }
 
 .loc-pad {
@@ -1991,6 +1997,10 @@ p10 {
 .footer-copyright .footer-link{
   color: gray;
   text-decoration: none;
+}
+
+.dropdown-item.active,.dropdown-item:active{
+  display: block !important;
 }
 
 @import url("mobile.css");
