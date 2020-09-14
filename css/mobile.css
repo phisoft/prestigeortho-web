@@ -231,3 +231,90 @@
   }
 }
 
+@media screen and (max-width: 25.0rem) {
+  
+  .lgo {
+    max-width: 90px !important;
+    max-height: 90px !important;
+  }
+
+  .find-out-more-right {
+    top: 70% !important;
+  }
+
+  .find-out-title-left {
+    font-size: 21px !important;
+  }
+}
+
+@media screen and (max-width: 30.0rem) {
+
+  .lgo {
+    max-width: 90px !important;
+    max-height: 90px !important;
+  }
+
+  .navbar-toggler {
+    padding: 1.7rem .75rem !important;
+  }
+
+  .logo_style {
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  .top-right {
+    position: absolute;
+    bottom: 400px;
+    right: 1px;
+  }
+
+  .pres-bg7 {
+    padding-bottom: 170px;
+  }
+
+  .pres-bg72 {
+    padding-bottom: 250px;
+  }
+
+  .find-out-more-right {
+    top: 60%;
+  }
+
+  .find-out-title-left {
+    font-size: 24px;
+  }
+
+  .find-out-more {
+    top: 67%;
+  }
+
+  .find-out-title-lefts {
+    top: 17%;
+  }
+
+  .find-out-mores {
+    top: 95%;
+    left: 50%;
+  }
+
+  .navbar-nav .dropdown-menu {
+    background-color: #5f3857;
+  }
+
+  .dropdown-menu {
+    border: 0;
+  }
+
+  .dropdown-item {
+    color: white;
+  }
+
+  .dropdown-item:focus, .dropdown-item:hover {
+    display: block !important;
+  }
+
+  .dropdown-item.active,.dropdown-item:active{
+    display: block !important;
+  }
+}
