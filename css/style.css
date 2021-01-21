@@ -557,7 +557,7 @@ html {
 .ws-bg22 {
   color: white;
   height: 500px;
-  background-image: url(../images/about-us/abt2-237x300.jpg);
+  background-image: url(../images/our-team/cert3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -566,7 +566,7 @@ html {
 .ws-bg23 {
   color: white;
   height: 500px;
-  background-image: url(../images/about-us/abt1-237x300.jpg);
+  background-image: url(../images/our-team/cert2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -620,16 +620,16 @@ html {
 .ws-bg29 {
   color: white;
   height: 500px;
-  background-image: url(../images/our-team/Photos-118-e-1-300x280.jpg);
+  background-image: url(../images/our-team/dr.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 73%;
 }
 
 .ws-bg30 {
   color: white;
   height: 500px;
-  background-image: url(../images/our-team/abt3-300x201.jpg);
+  background-image: url(../images/our-team/cert.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1343,7 +1343,7 @@ html {
 .ws-bg119 {
   color: white;
   min-height: 300px;
-  background-image: url(../images/about-us/m1-300x198.jpg);
+  background-image: url(../images/our-team/dr2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -1771,7 +1771,7 @@ html {
 .carousel-bg1 {
   min-height: 500px;
   background-repeat: no-repeat;
-  background-image: url(../images/home/bn-3.jpg);
+  background-image: url(../images/home/ban1.jpg);
   background-size: cover;
   background-position: center 30%;;
 }
@@ -1779,7 +1779,7 @@ html {
 .carousel-bg2 {
   min-height: 500px;
   background-repeat: no-repeat;
-  background-image: url(../images/home/bn-2.jpg);
+  background-image: url(../images/home/ban2.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -1787,7 +1787,7 @@ html {
 .carousel-bg3 {
   min-height: 500px;
   background-repeat: no-repeat;
-  background-image: url(../images/home/bn-1.jpg);
+  background-image: url(../images/home/ban3.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -1901,37 +1901,37 @@ h2 {
 .ws-bg65 {
   color: white;
   font-size: 15pt;
-  background-image: url(../images/our-team/Photos-129e-768x438.jpg);
+  background-image: url(../images/our-team/staffs.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 44%;
 }
 
 .ws-bg66 {
   color: white;
   font-size: 15pt;
-  background-image: url(../images/our-team/staff1.jpg);
+  background-image: url(../images/our-team/grace.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 57%;
 }
 
 .ws-bg67 {
   color: white;
   font-size: 15pt;
-  background-image: url(../images/our-team/staff2.jpg);
+  background-image: url(../images/our-team/weiwei.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 57%;
 }
 
 .ws-bg68 {
   color: white;
   font-size: 15pt;
-  background-image: url(../images/our-team/staff3.jpg);
+  background-image: url(../images/our-team/novelisa.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 48%;
 }
 
 .ws-contact-container {
