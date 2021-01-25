@@ -360,6 +360,15 @@ html {
   background-color: #9e799d;
 }
 
+.ws-bgdd {
+  color: white;
+  background-color: #c2a2cc;
+}
+
+.txt-p {
+  margin-bottom: 0.5rem !important;
+}
+
 .pres-bg6 {
   color: white;
   background-color: #855ea2;
@@ -388,7 +397,7 @@ html {
 .pres-bg8 {
   color: white;
   font-size: 15pt;
-  background-image: url(../images/types/mbraces.jpg);
+  background-image: url(../images/types/mbracesnew.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -397,10 +406,10 @@ html {
 .pres-bg9 {
   color: white;
   font-size: 15pt;
-  background-image: url(../images/home/counseling.jpg);
+  background-image: url(../images/home/help.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right center;
   height: 350px;
 }
 
@@ -465,7 +474,7 @@ html {
 .ws-bg6 {
   color: white;
   height: 500px;
-  background-image: url(../images/home/braces3.jpg);
+  background-image: url(../images/types/metalb.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -474,7 +483,7 @@ html {
 .ws-bg7 {
   color: white;
   height: 500px;  
-  background-image: url(../images/types/clear2.jpg);
+  background-image: url(../images/types/ceraminc.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -483,7 +492,7 @@ html {
 .ws-bg8 {
   color: white;
   height: 500px;
-  background-image: url(../images/types/mbraces2.jpg);
+  background-image: url(../images/types/mbracesnew.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -575,34 +584,34 @@ html {
 .ws-bg24 {
   color: white;
   height: 400px;
-  background-image: url(../images/about-us/what2-300x200.jpg);
+  background-image: url(../images/about-us/drc.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
 }
 
 .ws-bg25 {
   color: white;
   height: 500px;
-  background-image: url(../images/about-us/m1-300x198.jpg);
+  background-image: url(../images/about-us/abt3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 45%;
 }
 
 .ws-bg26 {
   color: white;
   height: 500px;
-  background-image: url(../images/about-us/m2-300x198.jpg);
+  background-image: url(../images/about-us/abt2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left center;
 }
 
 .ws-bg27 {
   color: white;
   height: 400px;
-  background-image: url(../images/about-us/With-patient-4.jpg);
+  background-image: url(../images/about-us/abt1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -611,7 +620,7 @@ html {
 .ws-bg28 {
   color: white;
   height: 400px;
-  background-image: url(../images/about-us/With-patient-2.jpg);
+  background-image: url(../images/about-us/abt4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1388,9 +1397,9 @@ html {
 .ws-bg124 {
   color: white;
   height: 400px;
-  background-image: url(../images/home/kids.jpg);
+  background-image: url(../images/home/treat.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  /*background-position: center;*/
   background-size: cover;
 }
 
@@ -1460,59 +1469,59 @@ html {
 .visit-bg1 {
   color: white;
   min-height: 400px;
-  background-image: url(../images/first-visit/Photos-061-e-300x217.jpg);
+  background-image: url(../images/first-visit/fv1.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 80%;
-  border: 10px solid #946bb0;
+  /*background-size: 80%;
+  border: 10px solid #946bb0;*/
 }
 
 .visit-bg2 {
   color: white;
   min-height: 400px;
-  background-image: url(../images/first-visit/first2-300x266.jpg);
+  background-image: url(../images/first-visit/fv3.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 80%;
-  border: 10px solid #e5e5f7;
+  /*background-size: 80%;
+  border: 10px solid #e5e5f7;*/
 }
 
 .visit-bg3 {
   color: white;
   min-height: 400px;
-  background-image: url(../images/first-visit/first4.jpg);
+  background-image: url(../images/first-visit/fv2.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 80%;
-  border: 10px solid #946bb0;
+  /*background-size: 80%;
+  border: 10px solid #946bb0;*/
 }
 
 .visit-bg4 {
   color: white;
   min-height: 400px;
-  background-image: url(../images/first-visit/finacing2.jpg);
+  background-image: url(../images/first-visit/finance.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 80%;
-  border: 10px solid #946bb0;
+  /*background-size: 80%;
+  border: 10px solid #946bb0;*/
 }
 
 .of-bg1 {
   color: white;
   min-height: 300px;
-  background-image: url(../images/office-tour/waiting-area.jpg);
+  background-image: url(../images/office-tour/waiting.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 90%;
+  background-size: 95%;
 }
 
 .of-bg2 {
   color: white;
   min-height: 300px;
-  background-image: url(../images/office-tour/waiting-area2.jpg);
+  background-image: url(../images/office-tour/waiting2.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 90%;
+  background-size: 95%;
 }
 
 .of-bg3 {
@@ -1527,7 +1536,7 @@ html {
 .of-bg4 {
   color: white;
   min-height: 300px;
-  background-image: url(../images/office-tour/reception-area.jpg);
+  background-image: url(../images/office-tour/reception.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 90%;
@@ -1536,7 +1545,7 @@ html {
 .of-bg5 {
   color: white;
   min-height: 300px;
-  background-image: url(../images/office-tour/treatment-area.jpg);
+  background-image: url(../images/office-tour/tr.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 90%;
@@ -1545,16 +1554,16 @@ html {
 .of-bg6 {
   color: white;
   min-height: 300px;
-  background-image: url(../images/office-tour/treatment-area2.jpg);
+  background-image: url(../images/office-tour/tr2.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-size: 90%;
 }
 
 .of-bg7 {
   color: white;
   min-height: 300px;
-  background-image: url(../images/office-tour/garden.jpg);
+  background-image: url(../images/office-tour/gr.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 90%;
@@ -1563,7 +1572,7 @@ html {
 .of-bg8 {
   color: white;
   min-height: 300px;
-  background-image: url(../images/office-tour/garden2.jpg);
+  background-image: url(../images/office-tour/gr2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 90%;
@@ -1572,7 +1581,7 @@ html {
 .of-bg9 {
   color: white;
   min-height: 300px;
-  background-image: url(../images/office-tour/garden3.jpg);
+  background-image: url(../images/office-tour/gr3.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 90%;
@@ -1581,16 +1590,16 @@ html {
 .of-bg10 {
   color: white;
   min-height: 300px;
-  background-image: url(../images/office-tour/X-ray.jpg);
+  background-image: url(../images/office-tour/xray.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 25%;
   background-size: 90%;
 }
 
 .of-bg11 {
   color: white;
   min-height: 300px;
-  background-image: url(../images/office-tour/lab.gif);
+  background-image: url(../images/office-tour/lab.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 90%;
@@ -1599,25 +1608,24 @@ html {
 .of-bg12 {
   color: white;
   min-height: 300px;
-  background-image: url(../images/office-tour/treatment-planning.gif);
+  background-image: url(../images/office-tour/tp.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 53%;
   background-size: 90%;
 }
 
 .dodont-bg1 {
   color: white;
   min-height: 400px;
-  background-image: url(../images/do-dont/do1.jpg);
+  background-image: url(../images/do-dont/dd.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 60%;
 }
 
 .dodont-bg2 {
   color: white;
   min-height: 400px;
-  background-image: url(../images/do-dont/brush.jpg);
+  background-image: url(../images/do-dont/dd1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1635,7 +1643,7 @@ html {
 .dodont-bg4 {
   color: white;
   min-height: 400px;
-  background-image: url(../images/do-dont/care.jpg);
+  background-image: url(../images/types/mbracesnew.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1644,7 +1652,7 @@ html {
 .old-bg1 {
   color: white;
   height: 500px;
-  background-image: url(../images/old/teenbraces3.jpg);
+  background-image: url(../images/old/old1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1853,10 +1861,10 @@ h2 {
 }
 
 .contact-carousel {
-  background-image: url(../images/contact-us/imageonline-co-darkenimage.jpg);
+  background-image: url(../images/contact-us/rv-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center 20%;
+  background-position: center 55%;
   font-size: 18px;
   opacity: 0.8;
 }
@@ -1865,7 +1873,7 @@ h2 {
 .ws-bg61 {
   color: white;
   font-size: 15pt;
-  background-image: url(../images/home/braces.jpg);
+  background-image: url(../images/types/metalb.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1883,10 +1891,20 @@ h2 {
 .ws-bg63 {
   color: white;
   font-size: 15pt;
-  background-image: url(../images/home/building.jpg);
+  background-image: url(../images/home/location.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center 20%;
+}
+
+.ws-bg63n {
+  color: white;
+  font-size: 15pt;
+  background-image: url(../images/home/location.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 20%;
+  min-height: 420px;
 }
 
 .ws-bg64 {
