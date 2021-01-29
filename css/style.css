@@ -1952,6 +1952,15 @@ h2 {
   background-position: center 48%;
 }
 
+.ws-bg69 {
+  color: white;
+  font-size: 15pt;
+  background-image: url(../images/our-team/janice.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 52%;
+}
+
 .ws-contact-container {
   margin: auto;
   margin-top: 0px;
