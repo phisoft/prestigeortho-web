@@ -73,12 +73,12 @@
   }
 
   .ws-bg9 {
-    height: 300px;
+    height: 25rem;
     background-position: center 100%;
   }
 
   .ws-bg10 {
-    height: 300px;
+    height: 200px;
     background-position: center 100%;
     background-size: 100%;
   }
@@ -87,6 +87,16 @@
     height: 300px;
     background-position: center 100%;
     background-size: 100%;
+  }
+
+  .ws-bg12 {
+    height: 250px !important;
+    background-position: center 100%;
+    background-size: 100%;
+  }
+
+  .ws-bg13 {
+    background-size: 60%;
   }
 
   /*Treatment Word*/

@@ -459,6 +459,10 @@ html {
   background-color: #dbdbdb;
 }
 
+.ws-bgg3 {
+  background-color: #a074a1;
+}
+
 /*Clinic Background*/
 .ws-bg40 {
   color: white;
@@ -482,7 +486,6 @@ html {
 
 .ws-bg7 {
   color: white;
-  height: 500px;  
   background-image: url(../images/types/ceraminc.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -507,9 +510,56 @@ html {
   background-position: center;
 }
 
+.find-out-more-twin {
+  float: left;
+  border: 1px solid;
+  padding: 15px;
+  color: #bfbfbf;
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 150px;
+  text-align: center;
+}
+
+.find-out-more-twin:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.find-out-more-rh {
+  border: 1px solid;
+  padding: 15px;
+  color: #9057af;
+  margin: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 150px;
+  text-align: center;
+}
+
+.find-out-more-rh:hover {
+  color: #542c69; !important;
+  text-decoration: none;
+}
+
+.rem-title {
+  font-size: 1.75rem;
+}
+
+.rem-text {
+  font-size: 1.2rem;
+}
+
 .ws-bg10 {
   color: white;
-  height: 300px;
+  height: 400px;
   background-image: url(../images/types/twin-block-appliance.jpg);
   background-size: 50%;
   background-repeat: no-repeat;
@@ -518,7 +568,7 @@ html {
 
 .ws-bg11 {
   color: white;
-  height: 400px;
+  height: 550px;
   background-image: url(../images/types/twin-block-appliance3.jpg);
   background-size: 50%;
   background-repeat: no-repeat;
@@ -527,7 +577,7 @@ html {
 
 .ws-bg12 {
   color: white;
-  min-height: 500px;
+  height: 500px;
   background-image: url(../images/types/herbst-appliance2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -632,14 +682,14 @@ html {
   background-image: url(../images/our-team/dr.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center 73%;
+  background-position: center 60%;
 }
 
 .ws-bg30 {
   color: white;
   height: 500px;
   background-image: url(../images/our-team/cert.jpg);
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
