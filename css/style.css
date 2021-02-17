@@ -183,6 +183,12 @@ html {
   color: white;
 }
 
+.ws-promise-item2 {
+  padding: 4em;
+  text-align: center;
+  color: black;
+}
+
 .ws-before-after {
   padding-top: 5em;
   background-color: white;
@@ -257,7 +263,7 @@ html {
 .ws-treatment-item {
   padding: 3em;
   background-color: white;
-  min-height: 300px;
+  min-height: 450px;
 }
 
 .ws-contact {
@@ -414,16 +420,17 @@ html {
 }
 
 .ws-bggs1 {
-    color: white;
-    font-size: 13pt;
-    background-image: url(../images/young/kid.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center
+  color: white;
+  font-size: 13pt;
+  background-image: url(../images/young/kid.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center
 }
 
 .ws-bgg1 {
   background-color: #855ea2;
+  color: white;
 }
 
 .ws-bggg1 {
@@ -461,6 +468,14 @@ html {
 
 .ws-bgg3 {
   background-color: #a074a1;
+}
+
+.ws-bgg4 {
+  background-color: white;
+}
+
+.ws-bgg5 {
+  background-color: #e0bce1;
 }
 
 /*Clinic Background*/
@@ -535,8 +550,8 @@ html {
   padding: 15px;
   color: #9057af;
   margin: 0;
-  bottom: 0;
-  right: 0;
+  bottom: 5%;
+  left: 50%;
   position: absolute;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -545,7 +560,7 @@ html {
 }
 
 .find-out-more-rh:hover {
-  color: #542c69; !important;
+  color: #542c69 !important;
   text-decoration: none;
 }
 
@@ -555,6 +570,14 @@ html {
 
 .rem-text {
   font-size: 1.2rem;
+}
+
+.rem-title2 {
+  font-size: 1.5rem;
+}
+
+.rem-text2 {
+  font-size: 1rem;
 }
 
 .ws-bg10 {
@@ -1405,7 +1428,7 @@ html {
   background-image: url(../images/our-team/dr2.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .ws-bg120 {
@@ -1514,6 +1537,7 @@ html {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+  background-color: #E5E5f7;
 }
 
 .visit-bg1 {
@@ -1522,6 +1546,7 @@ html {
   background-image: url(../images/first-visit/fv1.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   /*background-size: 80%;
   border: 10px solid #946bb0;*/
 }
@@ -1532,8 +1557,8 @@ html {
   background-image: url(../images/first-visit/fv3.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  /*background-size: 80%;
-  border: 10px solid #e5e5f7;*/
+  background-size: cover;
+  /*border: 10px solid #e5e5f7;*/
 }
 
 .visit-bg3 {
@@ -1542,8 +1567,8 @@ html {
   background-image: url(../images/first-visit/fv2.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  /*background-size: 80%;
-  border: 10px solid #946bb0;*/
+  background-size: cover;
+  /*border: 10px solid #946bb0;*/
 }
 
 .visit-bg4 {
@@ -1697,6 +1722,25 @@ html {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.dodont-bg5 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/do-dont/eat-burger.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dodont-bg6 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/do-dont/wax2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #d0c3dd;
 }
 
 .old-bg1 {
@@ -1941,10 +1985,11 @@ h2 {
 .ws-bg63 {
   color: white;
   font-size: 15pt;
-  background-image: url(../images/home/location.jpg);
-  background-size: cover;
+  background-image: url(../images/home/location2.jpg);
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center 20%;
+  background-position: bottom;
+  background-color: #855ea2;
 }
 
 .ws-bg63n {
@@ -2066,10 +2111,6 @@ p10 {
   padding-bottom: 0px;
 }
 
-.loc-pad5 {
-  padding-bottom: 10px;
-}
-
 .loc-pad3 {
   padding-bottom: 50px;
   padding-top: 50px;
@@ -2081,6 +2122,10 @@ p10 {
   padding-bottom: 0px;
   text-align: center;
   padding-top: 10px;
+}
+
+.loc-pad5 {
+  padding-bottom: 10px;
 }
 
 .iconc {
@@ -2270,4 +2315,13 @@ p10 {
 
 .line-2 {
   line-height: 2;
+}
+
+.link-in-text {
+  color: white;
+  text-decoration: underline;
+}
+
+.link-in-text:hover {
+  color: rgb(0, 0, 0);
 }
