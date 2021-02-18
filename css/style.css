@@ -458,8 +458,8 @@ html {
   max-width: 100%;
   margin: auto;
   background-color: #0000009e;
-  padding-right: 0px;
-  padding-left: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .ws-bgg2 {
@@ -639,8 +639,8 @@ html {
 .ws-bg22 {
   color: white;
   height: 500px;
-  background-image: url(../images/our-team/cert3.jpg);
-  background-size: cover;
+  background-image: url(../images/about-us/hongkong.jpg);
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -648,8 +648,17 @@ html {
 .ws-bg23 {
   color: white;
   height: 500px;
-  background-image: url(../images/our-team/cert2.jpg);
-  background-size: cover;
+  background-image: url(../images/about-us/edinburgh.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ws-bgUSA {
+  color: white;
+  height: 500px;
+  background-image: url(../images/about-us/usa.jpg);
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -721,7 +730,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf1.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -730,7 +739,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af1.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -739,7 +748,6 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf2.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -748,7 +756,6 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af2.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -757,7 +764,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf3.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -766,7 +773,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af3.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -775,7 +782,6 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf4.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -784,7 +790,6 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af4.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -793,7 +798,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf5.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -802,7 +807,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af5.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -811,7 +816,6 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf6.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -820,7 +824,6 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af6.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -829,7 +832,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf7.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -838,7 +841,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af7.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -847,7 +850,6 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf8.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -856,7 +858,6 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af8.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -865,7 +866,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf9.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -874,7 +875,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af9.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -883,7 +884,6 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf10.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -892,7 +892,6 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af10.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -901,7 +900,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf11.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -910,7 +909,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af11.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -919,7 +918,6 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf12.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -928,7 +926,6 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af12.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -937,7 +934,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf13.jpg);
-  background-size: 95%;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -946,7 +943,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af13.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -955,7 +952,6 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf14.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -964,7 +960,6 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af14.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -973,7 +968,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf15.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -982,7 +977,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af15.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -991,25 +986,25 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf16.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 60%;
 }
 
 .ws-bg72 {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af16.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 60%;
 }
 
 .ws-bg73 {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf17.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1018,7 +1013,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af17.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1027,7 +1022,6 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf18.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1036,7 +1030,6 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af18.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1045,7 +1038,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf19.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1054,7 +1047,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af19.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1063,7 +1056,6 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf20.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1072,7 +1064,6 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af20.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1081,7 +1072,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf21.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1090,7 +1081,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af21.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1099,7 +1090,6 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf22.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1108,7 +1098,6 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af22.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1117,7 +1106,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf23.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1126,7 +1115,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af23.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1135,7 +1124,6 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf24.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1144,7 +1132,6 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af24.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1153,25 +1140,25 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf25.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 50%;
 }
 
 .ws-bg90 {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af25.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 50%;
 }
 
 .ws-bg91 {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/large-25.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   margin-top: -10px;
@@ -1181,7 +1168,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf26.jpg);
-  background-size: cover;
+  background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1190,7 +1177,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af26.jpg);
-  background-size: cover;
+  background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
   margin-top: -10px;
@@ -1200,7 +1187,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/bf27.jpg);
-  background-size: cover;
+  background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1209,7 +1196,7 @@ html {
   color: white;
   height: 300px;
   background-image: url(../images/gallery/af27.jpg);
-  background-size: cover;
+  background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1338,7 +1325,7 @@ html {
   color: white;
   min-height: 300px;
   background-image: url(../images/gallery/crossbite-kids.jpg);
-  background-size: cover;
+  background-color: #bfa9d0;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1347,7 +1334,6 @@ html {
   color: white;
   min-height: 300px;
   background-image: url(../images/gallery/crossbite-kids2.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1356,7 +1342,7 @@ html {
   color: white;
   min-height: 300px;
   background-image: url(../images/gallery/diastema-child.jpg);
-  background-size: cover;
+  background-color: #bfa9d0;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1365,7 +1351,6 @@ html {
   color: white;
   min-height: 300px;
   background-image: url(../images/gallery/diastema-child2.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1374,7 +1359,7 @@ html {
   color: white;
   min-height: 300px;
   background-image: url(../images/gallery/deepbite-child.jpg);
-  background-size: cover;
+  background-color: #bfa9d0;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1383,7 +1368,6 @@ html {
   color: white;
   min-height: 300px;
   background-image: url(../images/gallery/deepbite-child2.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1391,8 +1375,8 @@ html {
 .ws-bg115 {
   color: white;
   min-height: 500px;
-  background-image: url(../images/gallery/jaw-disrepancy-child2.jpg);
-  background-size: cover;
+  background-image: url(../images/gallery/jaw-disrepancy-child.jpg);
+  background-color: #bfa9d0;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1420,6 +1404,8 @@ html {
   background-image: url(../images/gallery/young2.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  border: 5px solid #bfa9d0;
+  border-bottom: none;
 }
 
 .ws-bg119 {
@@ -1743,6 +1729,64 @@ html {
   background-color: #d0c3dd;
 }
 
+.dodont-bg7 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/do-dont/flossing.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #d0c3dd;
+}
+
+.dodont-bg8 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/do-dont/inter-dental.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #d0c3dd;
+}
+
+.dodont-bg9 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/do-dont/sport.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #d0c3dd;
+}
+
+.emergencies-bg1 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/do-dont/biteblock.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #d0c3dd;
+}
+
+.trios-bg1 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/trios/trios-intraoral-scanner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.trios-bg2 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/trios/scan.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .old-bg1 {
   color: white;
   height: 500px;
@@ -1801,6 +1845,15 @@ html {
   color: white;
   min-height: 500px;
   background-image: url(../images/old/orthodonticforteenagers.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.old-bg8 {
+  color: white;
+  height: 500px;
+  background-image: url(../images/old/cosmetics.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -2280,7 +2333,7 @@ p10 {
   margin: 0;
   position: absolute;
   top: 80%;
-  left: 45%;
+  left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
@@ -2298,7 +2351,7 @@ p10 {
   transform: translate(-50%, -50%);
 }
 
-.find-out-more:hover, .find-out-more-right:hover {
+.find-out-more:hover, .find-out-more-right:hover, .find-out-mores:hover {
   color: #7110b3;
   text-decoration: none;
 }
@@ -2324,4 +2377,14 @@ p10 {
 
 .link-in-text:hover {
   color: rgb(0, 0, 0);
+}
+
+.call {
+  color: white;
+  text-decoration: none;
+}
+
+.call:hover {
+  color: black;
+  text-decoration: none;
 }

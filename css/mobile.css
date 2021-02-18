@@ -128,7 +128,7 @@
   }
 
   .ws-bg63 {
-    height: 311px;
+    height: 337px;
     background-size: cover;
   }
 
@@ -244,6 +244,22 @@
     color: #5f3857;
     border-color: transparent;
   }
+
+  .loc-pad3 {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+
+  /*
+  .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  #content-container {
+    padding: 0;
+  }
+  */
 }
 
 @media screen and (max-width: 25.0rem) {
