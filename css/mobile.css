@@ -28,6 +28,7 @@
 
   .pres-bg10 {
     height: 500px;
+    border-left: none;
   }
 
 
@@ -52,8 +53,24 @@
     color: black;
   }
 
-  .ws-bg60 {
-    background-color: aqua;
+  .ws-treatment-500 {
+    min-height: 600px;
+  }
+
+  .lab-bg {
+    min-height: 250px;
+  }
+
+  .lab-bg2 {
+    margin-bottom: 5px;
+  }
+
+  .of-bg10 {
+    margin-bottom: 5px;
+  }
+
+  .sleep-bg4 {
+    background-position: left;
   }
 
   /*Treatment Images*/
@@ -73,12 +90,12 @@
   }
 
   .ws-bg9 {
-    height: 300px;
+    height: 25rem;
     background-position: center 100%;
   }
 
   .ws-bg10 {
-    height: 300px;
+    height: 200px;
     background-position: center 100%;
     background-size: 100%;
   }
@@ -89,12 +106,20 @@
     background-size: 100%;
   }
 
+  .ws-bg12 {
+    height: 250px !important;
+    background-position: center 100%;
+    background-size: 100%;
+  }
+
+  .ws-bg13 {
+    background-size: 60%;
+  }
+
   /*Treatment Word*/
   .ws-bg30 {
-    height: 350px;
+    height: 300px;
     color: white;
-    background-color: #038984;
-    background-size: cover;
     background-position: center 100%;
     padding-top: 10%;
   }
@@ -102,8 +127,7 @@
   .ws-bg31 {
     height: 350px;
     color: white;
-    background-color:#097d78;
-    background-size: cover;
+    background-size: contain;
     background-position: center 100%; 
     padding-top: 10%;
   }
@@ -111,10 +135,31 @@
   .ws-bg32 {
     height: 350px;
     color: white;
-    background-color:#066847;
-    background-size: cover;
+    background-size: contain;
     background-position: center 100%; 
     padding-top: 10%;
+  }
+
+  .before {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    position: absolute;
+    left: 0;
+    font-size: 22px;
+  }
+
+  .ws-bg33, .ws-bg34, .ws-bg37, .ws-bg38, .ws-bg39, .ws-bg48, .ws-bg42, .ws-bg43, .ws-bg46, .ws-bg47, .ws-bg51, 
+  .ws-bg52, .ws-bg55, .ws-bg56, .ws-bg59, .ws-bg60, .ws-bg75, .ws-bg76, .ws-bg79, .ws-bg80, .ws-bg83, .ws-bg84, 
+  .ws-bg87, .ws-bg88  {
+    background-size: 70%;
+  }
+
+  .ws-bg63 {
+    height: 337px;
+    background-size: cover;
   }
 
   .ws-bg33, .ws-bg34, .ws-bg35,  .ws-bg36, .ws-bg37, .ws-bg38, .ws-bg39 {
@@ -229,6 +274,22 @@
     color: #5f3857;
     border-color: transparent;
   }
+
+  .loc-pad3 {
+    padding-bottom: 0px;
+    padding-top: 50px;
+  }
+
+  /*
+  .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  #content-container {
+    padding: 0;
+  }
+  */
 }
 
 @media screen and (max-width: 25.0rem) {
@@ -274,19 +335,89 @@
   }
 
   .pres-bg72 {
-    padding-bottom: 250px;
+    padding-bottom: 400px;
+  }
+
+  .of-bg1 {
+    min-height: 250px;
+    margin-bottom: 5px;
+  }
+
+  .of-bg2 {
+    min-height: 250px;
+  }
+
+  .of-bg5 {
+    min-height: 150px;
+    margin-bottom: -15px;
+    background-size: 90%;
+  }
+
+  .of-bg3 {
+    min-height: 200px;
+  }
+
+  .of-bg6 {
+    min-height: 200px;
+    margin-bottom: 5px;
+  }
+
+  .of-bg7, .of-bg8, .of-bg9 {
+    min-height: 250px;
+  }
+
+  .ex-bg1 {
+    background-position: 25%;
+  }
+
+  .ws-bg66, .ws-bg67, .ws-bg68, .ws-bg69-2 {
+    height: 300px;
+  }
+
+  .ws-bg115 {
+    min-height: 300px;
+    background-size: contain;
+  }
+
+  .ws-headgear {
+    background-size: 60%;
+  }
+
+  .visit-bg1, .visit-bg2, .visit-bg3, .visit-bg4 {
+    min-height: 250px;
+    background-size: contain;
+  }
+
+  .ws-bg128, .ws-bg129 {
+    height: 300px;
+    background-size: contain;
+  }
+
+  .dodont-bg4 {
+    min-height: 250px;
+  }
+
+  .ws-bg126, .ws-bg125, .ws-bg127 {
+    height: 250px;
+  }
+
+  .play-bg1 {
+    height: 250px;
+  }
+
+  .find-out-more {
+    top: unset;
+    bottom: 0;
+    padding-top: 10px;
   }
 
   .find-out-more-right {
-    top: 60%;
+    top: unset;
+    bottom: 0;
   }
 
   .find-out-title-left {
     font-size: 24px;
-  }
-
-  .find-out-more {
-    top: 67%;
   }
 
   .find-out-title-lefts {
@@ -317,4 +448,40 @@
   .dropdown-item.active,.dropdown-item:active{
     display: block !important;
   }
+}
+
+/* ipad */
+@media screen and (width: 64.0rem) {
+  .col-sm-6 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .padding-center {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .find-out-more {
+    margin-top: 10px;
+  }
+
+  .find-out-title-lefts {
+    top: 10%;
+  }
+
+  .find-out-mores {
+    left: 50%;
+    margin-top: 10px;
+  }
+
+  .ws-bg26, .ws-bg124 {
+    background-position: center;
+  }
+
+  .pres-bg6 p, .pres-bg10 p {
+    padding-top: 0 !important;
+  }
+
 }
