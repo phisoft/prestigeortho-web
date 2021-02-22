@@ -451,7 +451,7 @@
 }
 
 /* ipad */
-@media screen and (width: 64.0rem) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
   .col-sm-6 {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
@@ -482,6 +482,10 @@
 
   .pres-bg6 p, .pres-bg10 p {
     padding-top: 0 !important;
+  }
+
+  .ws-bg66, .ws-bg67 , .ws-bg68 , .ws-bg69-2  {
+    height: 300px;
   }
 
 }

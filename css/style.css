@@ -2441,6 +2441,7 @@ p10 {
 
 .find-out-more {
   float: center;
+  font-size: 14px;
   border: 1px solid;
   padding: 15px;
   color: #bfbfbf;
@@ -2455,6 +2456,7 @@ p10 {
 .find-out-mores {
   float: center;
   border: 1px solid;
+  font-size: 14px;
   padding: 15px;
   color: #bfbfbf;
   margin: 0;
@@ -2467,6 +2469,7 @@ p10 {
 
 .find-out-more-right {
   float: left;
+  font-size: 14px;
   border: 1px solid;
   padding: 15px;
   color: #bfbfbf;
@@ -2495,6 +2498,7 @@ p10 {
 
 .line-2 {
   line-height: 2;
+  text-align: justify;
 }
 
 .link-in-text {
