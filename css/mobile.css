@@ -53,8 +53,24 @@
     color: black;
   }
 
-  .ws-bg60 {
-    background-color: aqua;
+  .ws-treatment-500 {
+    min-height: 600px;
+  }
+
+  .lab-bg {
+    min-height: 250px;
+  }
+
+  .lab-bg2 {
+    margin-bottom: 5px;
+  }
+
+  .of-bg10 {
+    margin-bottom: 5px;
+  }
+
+  .sleep-bg4 {
+    background-position: left;
   }
 
   /*Treatment Images*/
@@ -104,7 +120,6 @@
   .ws-bg30 {
     height: 300px;
     color: white;
-    background-color: #038984;
     background-position: center 100%;
     padding-top: 10%;
   }
@@ -112,8 +127,7 @@
   .ws-bg31 {
     height: 350px;
     color: white;
-    background-color:#097d78;
-    background-size: cover;
+    background-size: contain;
     background-position: center 100%; 
     padding-top: 10%;
   }
@@ -121,10 +135,26 @@
   .ws-bg32 {
     height: 350px;
     color: white;
-    background-color:#066847;
-    background-size: cover;
+    background-size: contain;
     background-position: center 100%; 
     padding-top: 10%;
+  }
+
+  .before {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    position: absolute;
+    left: 0;
+    font-size: 22px;
+  }
+
+  .ws-bg33, .ws-bg34, .ws-bg37, .ws-bg38, .ws-bg39, .ws-bg48, .ws-bg42, .ws-bg43, .ws-bg46, .ws-bg47, .ws-bg51, 
+  .ws-bg52, .ws-bg55, .ws-bg56, .ws-bg59, .ws-bg60, .ws-bg75, .ws-bg76, .ws-bg79, .ws-bg80, .ws-bg83, .ws-bg84, 
+  .ws-bg87, .ws-bg88  {
+    background-size: 70%;
   }
 
   .ws-bg63 {
@@ -247,7 +277,7 @@
 
   .loc-pad3 {
     padding-bottom: 0px;
-    padding-top: 0px;
+    padding-top: 50px;
   }
 
   /*
@@ -308,16 +338,86 @@
     padding-bottom: 400px;
   }
 
+  .of-bg1 {
+    min-height: 250px;
+    margin-bottom: 5px;
+  }
+
+  .of-bg2 {
+    min-height: 250px;
+  }
+
+  .of-bg5 {
+    min-height: 150px;
+    margin-bottom: -15px;
+    background-size: 90%;
+  }
+
+  .of-bg3 {
+    min-height: 200px;
+  }
+
+  .of-bg6 {
+    min-height: 200px;
+    margin-bottom: 5px;
+  }
+
+  .of-bg7, .of-bg8, .of-bg9 {
+    min-height: 250px;
+  }
+
+  .ex-bg1 {
+    background-position: 25%;
+  }
+
+  .ws-bg66, .ws-bg67, .ws-bg68, .ws-bg69-2 {
+    height: 300px;
+  }
+
+  .ws-bg115 {
+    min-height: 300px;
+    background-size: contain;
+  }
+
+  .ws-headgear {
+    background-size: 60%;
+  }
+
+  .visit-bg1, .visit-bg2, .visit-bg3, .visit-bg4 {
+    min-height: 250px;
+    background-size: contain;
+  }
+
+  .ws-bg128, .ws-bg129 {
+    height: 300px;
+    background-size: contain;
+  }
+
+  .dodont-bg4 {
+    min-height: 250px;
+  }
+
+  .ws-bg126, .ws-bg125, .ws-bg127 {
+    height: 250px;
+  }
+
+  .play-bg1 {
+    height: 250px;
+  }
+
+  .find-out-more {
+    top: unset;
+    bottom: 0;
+    padding-top: 10px;
+  }
+
   .find-out-more-right {
-    top: 60%;
+    top: unset;
+    bottom: 0;
   }
 
   .find-out-title-left {
     font-size: 24px;
-  }
-
-  .find-out-more {
-    top: 67%;
   }
 
   .find-out-title-lefts {
