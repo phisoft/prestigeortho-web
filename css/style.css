@@ -169,7 +169,7 @@ html {
 }
 
 .ws-promise {
-  text-align: center;
+  text-align: center !important;
   padding-top: 100px;
   padding-bottom: 100px;
   max-width: 800px;
@@ -614,7 +614,7 @@ html {
 
 .ws-headgear {
   color: white;
-  height: 400px;
+  height: 450px;
   background-image: url(../images/types/headgear.jpg);
   background-size: 40%;
   background-repeat: no-repeat;
@@ -623,7 +623,7 @@ html {
 
 .ws-bg13 {
   color: white;
-  height: 400px;
+  height: 500px;
   background-image: url(../images/types/reverse-headgear.jpg);
   background-size: 40%;
   background-repeat: no-repeat;

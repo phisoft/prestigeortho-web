@@ -26,6 +26,11 @@
     background-size: cover;
   }
 
+  .after {
+    padding-top: 0 !important;
+    margin-top: 50px;
+  }
+
   .pres-bg10 {
     height: 500px;
     border-left: none;
@@ -59,6 +64,7 @@
 
   .lab-bg {
     min-height: 250px;
+    margin-bottom: 5px;
   }
 
   .lab-bg2 {
@@ -128,19 +134,17 @@
     height: 350px;
     color: white;
     background-size: contain;
-    background-position: center 100%; 
-    padding-top: 10%;
+    background-position: center 100%;
   }
 
   .ws-bg32 {
     height: 350px;
     color: white;
     background-size: contain;
-    background-position: center 100%; 
-    padding-top: 10%;
+    background-position: center 100%;
   }
 
-  .before {
+  .before, .after {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -349,8 +353,8 @@
 
   .of-bg5 {
     min-height: 150px;
-    margin-bottom: -15px;
-    background-size: 90%;
+    margin-bottom: -10px;
+    background-size: 95%;
   }
 
   .of-bg3 {
@@ -364,6 +368,7 @@
 
   .of-bg7, .of-bg8, .of-bg9 {
     min-height: 250px;
+    margin-bottom: 5px;
   }
 
   .ex-bg1 {
@@ -403,6 +408,7 @@
 
   .play-bg1 {
     height: 250px;
+    margin-bottom: 5px;
   }
 
   .find-out-more {
