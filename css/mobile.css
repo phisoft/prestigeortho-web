@@ -137,6 +137,15 @@
     background-position: center 100%;
   }
 
+  .dodont-bg1, .dodont-bg2, .dodont-bg3, .dodont-bg4, .dodont-bg5, .dodont-bg6, .dodont-bg7, .dodont-bg8, .dodont-bg9 {
+    height: 400px;
+  }
+
+  .treat-bg1, .treat-bg2, .treat-bg3 {
+    margin-bottom: 5px;
+    background-size: 95%;
+  }
+
   .ws-bg32 {
     height: 350px;
     color: white;
@@ -334,6 +343,14 @@
     right: 1px;
   }
 
+  .mobile-cover {
+    background-size: cover;
+  }
+
+  .mobile-pad {
+    padding: 0;
+  }
+
   .pres-bg7 {
     padding-bottom: 170px;
   }
@@ -353,8 +370,6 @@
 
   .of-bg5 {
     min-height: 150px;
-    margin-bottom: -10px;
-    background-size: 95%;
   }
 
   .of-bg3 {
