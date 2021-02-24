@@ -1509,6 +1509,15 @@ html {
   background-size: cover;
 }
 
+.ws-retainer {
+  color: white;
+  height: 400px;
+  background-image: url(../images/types/mbracesnew.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .ws-bg126 {
   color: white;
   height: 400px;
@@ -1521,7 +1530,7 @@ html {
 .ws-bg127 {
   color: white;
   height: 400px;
-  background-image: url(../images/do-dont/remove.jpg);
+  background-image: url(../images/do-dont/app.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1529,7 +1538,7 @@ html {
 
 .ws-bg128 {
   color: white;
-  height: 400px;
+  height: 450px;
   background-image: url(../images/do-dont/wax.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -1538,8 +1547,8 @@ html {
 
 .ws-bg129 {
   color: white;
-  height: 480px;
-  background-image: url(../images/do-dont/braces-component.jpg);
+  height: 450px;
+  background-image: url(../images/do-dont/braces.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1656,7 +1665,7 @@ html {
   background-image: url(../images/office-tour/tr.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 95%;
+  background-size: 97.5%;
 }
 
 .of-bg6 {
@@ -1666,6 +1675,33 @@ html {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 95%;
+}
+
+.treat-bg1 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/office-tour/treat1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 92.5%;
+}
+
+.treat-bg2 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/office-tour/treat2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 92.5%;
+}
+
+.treat-bg3 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/office-tour/treat3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 92.5%;
 }
 
 .of-bg3 {
@@ -1760,7 +1796,7 @@ html {
 
 .dodont-bg1 {
   color: white;
-  min-height: 400px;
+  height: 600px;
   background-image: url(../images/do-dont/dd.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -1768,7 +1804,7 @@ html {
 
 .dodont-bg2 {
   color: white;
-  min-height: 400px;
+  height: 600px;
   background-image: url(../images/do-dont/dd1.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -1777,7 +1813,7 @@ html {
 
 .dodont-bg3 {
   color: white;
-  min-height: 400px;
+  height: 600px;
   background-image: url(../images/do-dont/loosening.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -1786,7 +1822,7 @@ html {
 
 .dodont-bg4 {
   color: white;
-  min-height: 400px;
+  height: 600px;
   background-image: url(../images/types/mbracesnew.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -1795,8 +1831,8 @@ html {
 
 .dodont-bg5 {
   color: white;
-  min-height: 400px;
-  background-image: url(../images/do-dont/eat-burger.jpg);
+  height: 600px;
+  background-image: url(../images/do-dont/eating.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1804,7 +1840,7 @@ html {
 
 .dodont-bg6 {
   color: white;
-  min-height: 400px;
+  height: 600px;
   background-image: url(../images/do-dont/wax2.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -1814,18 +1850,18 @@ html {
 
 .dodont-bg7 {
   color: white;
-  min-height: 400px;
+  height: 600px;
   background-image: url(../images/do-dont/flossing.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   background-size: cover;
   background-color: #d0c3dd;
 }
 
 .dodont-bg8 {
   color: white;
-  min-height: 400px;
-  background-image: url(../images/do-dont/inter-dental.jpg);
+  height: 600px;
+  background-image: url(../images/do-dont/interdental-brush.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1834,8 +1870,8 @@ html {
 
 .dodont-bg9 {
   color: white;
-  min-height: 400px;
-  background-image: url(../images/do-dont/sport.jpg);
+  height: 600px;
+  background-image: url(../images/do-dont/sport2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
