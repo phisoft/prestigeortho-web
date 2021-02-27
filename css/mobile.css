@@ -1,4 +1,9 @@
 @media screen and (max-width: 40.0rem) {
+
+  #content-container {
+    padding: 0;
+  }
+
   .row-reverse {
     display: flex;
     flex-direction: column-reverse;
@@ -200,12 +205,17 @@
 
   .ws-bg22 {
     min-height: 350px;
-    background-position: center 100%; 
+    background-size: 100% 100%;
   }
 
   .ws-bg23 {
     min-height: 350px;
-    background-position: center 100%; 
+    background-size: 100% 100%;
+  }
+
+  .ws-bgUSA {
+    min-height: 350px;
+    background-size: 100% 100%;
   }
 
   .ws-bg24 {
