@@ -25,7 +25,7 @@ html {
 }
 
 #side-nav {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-left: 0px;
   min-height: 100vh;
   position: fixed;
@@ -45,7 +45,7 @@ html {
 #side-nav ul {
   list-style-type: none;
   padding: 0;
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 #side-nav li {
@@ -103,8 +103,7 @@ html {
 
 .ws-purpose-item {
   color: black;
-  min-height: 280px;
-  max-height: 314px;
+  min-height: 400px;
   background-color: #c2a2cc;
 }
 
@@ -420,8 +419,8 @@ html {
   background-image: url(../images/home/help.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: right center;
-  height: 350px;
+  background-position: right 29%;
+  height: 400px;
 }
 
 .ws-bggs1 {
@@ -1218,7 +1217,6 @@ html {
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: -10px;
 }
 
 .ws-bg94 {
@@ -1265,7 +1263,6 @@ html {
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: -10px;
 }
 
 .ws-bg99 {
@@ -1284,7 +1281,6 @@ html {
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: -10px;
 }
 
 .ws-bg101 {
@@ -1470,7 +1466,7 @@ html {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 350px;
+  height: 400px;
 }
 
 .ws-bg122 {
@@ -1587,7 +1583,7 @@ html {
 .visit-bg2 {
   color: white;
   min-height: 400px;
-  background-image: url(../images/first-visit/fv3.jpg);
+  background-image: url(../images/first-visit/fv4.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1612,6 +1608,15 @@ html {
   background-position: center;
   /*background-size: 80%;
   border: 10px solid #946bb0;*/
+}
+
+.tech-bg2 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/office-tour/xray.jpg);
+  background-repeat: no-repeat;
+  background-position: center 25%;
+  background-size: cover;
 }
 
 .of-bg1 {
@@ -1650,10 +1655,28 @@ html {
   background-size: 95%;
 }
 
+.play-bg3 {
+  color: white;
+  height: 400px;
+  background-image: url(../images/office-tour/play-area3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 95%;
+}
+
 .of-bg4 {
   color: white;
   min-height: 400px;
   background-image: url(../images/office-tour/reception.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 95%;
+}
+
+.of-bg4-2 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/office-tour/reception2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 95%;
@@ -1794,6 +1817,15 @@ html {
   background-size: 95%;
 }
 
+.of-bg13 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/office-tour/tp2.jpg);
+  background-repeat: no-repeat;
+  background-position: center 53%;
+  background-size: 95%;
+}
+
 .dodont-bg1 {
   color: white;
   height: 600px;
@@ -1878,10 +1910,19 @@ html {
   background-color: #d0c3dd;
 }
 
+.lost-bg1 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/do-dont/lost.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .emergencies-bg1 {
   color: white;
   min-height: 400px;
-  background-image: url(../images/do-dont/biteblock.jpg);
+  background-image: url(../images/do-dont/biteblock2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1943,7 +1984,7 @@ html {
   background-image: url(../images/equipment/sleep-apnea5.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 
 .sleep-bg6 {
@@ -2208,7 +2249,7 @@ h2 {
   background-image: url(../images/home/location2.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: top;
   background-color: #855ea2;
 }
 
@@ -2547,7 +2588,7 @@ p10 {
 }
 
 .call {
-  color: yellow;
+  color: white;
   text-decoration: none;
 }
 
@@ -2561,4 +2602,16 @@ p10 {
   body {
     font-size: 1.2rem;
   }
+}
+
+.reverse, .reverse>* {
+  -moz-transform: scale(1, -1);
+  -webkit-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+.img-label {
+  font-weight: 700;
 }
