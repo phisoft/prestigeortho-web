@@ -25,7 +25,7 @@ html {
 }
 
 #side-nav {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-left: 0px;
   min-height: 100vh;
   position: fixed;
@@ -45,7 +45,7 @@ html {
 #side-nav ul {
   list-style-type: none;
   padding: 0;
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 #side-nav li {
@@ -103,8 +103,7 @@ html {
 
 .ws-purpose-item {
   color: black;
-  min-height: 280px;
-  max-height: 314px;
+  min-height: 400px;
   background-color: #c2a2cc;
 }
 
@@ -290,6 +289,8 @@ html {
   text-align: center;
   margin: auto;
   background-color: #d0a7cf;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .ws-contact i, .ws-contact-2 i {
@@ -420,8 +421,8 @@ html {
   background-image: url(../images/home/help.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: right center;
-  height: 350px;
+  background-position: right 29%;
+  height: 400px;
 }
 
 .ws-bggs1 {
@@ -528,6 +529,23 @@ html {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.find-out-more-contact {
+  border: 1px solid;
+  padding: 7px;
+  color: #b582cd !important;
+  margin-top: 30px;
+  position: absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 150px;
+  text-align: center;
+}
+
+.find-out-more-contact:hover {
+  color: black;
+  text-decoration: none;
 }
 
 .find-out-more-twin {
@@ -724,7 +742,7 @@ html {
 
 .ws-bg29 {
   color: white;
-  height: 500px;
+  min-height: 500px;
   background-image: url(../images/our-team/dr.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -1218,7 +1236,6 @@ html {
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: -10px;
 }
 
 .ws-bg94 {
@@ -1265,7 +1282,6 @@ html {
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: -10px;
 }
 
 .ws-bg99 {
@@ -1284,7 +1300,6 @@ html {
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: -10px;
 }
 
 .ws-bg101 {
@@ -1470,7 +1485,7 @@ html {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 350px;
+  height: 400px;
 }
 
 .ws-bg122 {
@@ -1547,7 +1562,7 @@ html {
 
 .ws-bg129 {
   color: white;
-  height: 450px;
+  height: 500px;
   background-image: url(../images/do-dont/braces.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -1587,7 +1602,7 @@ html {
 .visit-bg2 {
   color: white;
   min-height: 400px;
-  background-image: url(../images/first-visit/fv3.jpg);
+  background-image: url(../images/first-visit/fv4.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1614,13 +1629,22 @@ html {
   border: 10px solid #946bb0;*/
 }
 
+.tech-bg2 {
+  color: white;
+  min-height: 300px;
+  background-image: url(../images/office-tour/xray.jpg);
+  background-repeat: no-repeat;
+  background-position: center 25%;
+  background-size: cover;
+}
+
 .of-bg1 {
   color: white;
   min-height: 400px;
   background-image: url(../images/office-tour/waiting.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 95%;
+  background-size: 100% 100%;
 }
 
 .of-bg2 {
@@ -1629,7 +1653,7 @@ html {
   background-image: url(../images/office-tour/waiting2.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 95%;
+  background-size: 100% 100%;
 }
 
 .play-bg1 {
@@ -1638,7 +1662,7 @@ html {
   background-image: url(../images/office-tour/play-area.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 95%;
+  background-size: 100% 100%;
 }
 
 .play-bg2 {
@@ -1647,7 +1671,16 @@ html {
   background-image: url(../images/office-tour/play-area2.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 95%;
+  background-size: cover;
+}
+
+.play-bg3 {
+  color: white;
+  height: 400px;
+  background-image: url(../images/office-tour/play-area3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .of-bg4 {
@@ -1656,7 +1689,15 @@ html {
   background-image: url(../images/office-tour/reception.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 95%;
+  background-size: 100% 100%;
+}
+
+.of-bg4-2 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/office-tour/reception2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;background-size: 100% 100%;
 }
 
 .of-bg5 {
@@ -1665,7 +1706,7 @@ html {
   background-image: url(../images/office-tour/tr.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 97.5%;
+  background-size: 100% 100%;
 }
 
 .of-bg6 {
@@ -1674,7 +1715,7 @@ html {
   background-image: url(../images/office-tour/tr2.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: 95%;
+  background-size: 100% 100%;
 }
 
 .treat-bg1 {
@@ -1683,7 +1724,7 @@ html {
   background-image: url(../images/office-tour/treat1.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 92.5%;
+  background-size: 100% 100%;
 }
 
 .treat-bg2 {
@@ -1692,7 +1733,7 @@ html {
   background-image: url(../images/office-tour/treat2.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 92.5%;
+  background-size: 100% 100%;
 }
 
 .treat-bg3 {
@@ -1701,7 +1742,16 @@ html {
   background-image: url(../images/office-tour/treat3.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 92.5%;
+  background-size: 100% 100%;
+}
+
+.treat-bg4 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/office-tour/treat4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
 }
 
 .of-bg3 {
@@ -1710,7 +1760,7 @@ html {
   background-image: url(../images/office-tour/treatment-area3.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: 95%;
+  background-size: 100% 100%;
 }
 
 .of-bg7 {
@@ -1719,7 +1769,7 @@ html {
   background-image: url(../images/office-tour/gr.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 95%;
+  background-size: cover;
 }
 
 .of-bg8 {
@@ -1728,7 +1778,7 @@ html {
   background-image: url(../images/office-tour/gr2.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 95%;
+  background-size: cover;
 }
 
 .of-bg9 {
@@ -1737,25 +1787,43 @@ html {
   background-image: url(../images/office-tour/gr3.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 95%;
+  background-size: cover;
 }
 
 .of-bg10 {
   color: white;
-  min-height: 300px;
+  min-height: 400px;
   background-image: url(../images/office-tour/xray.jpg);
   background-repeat: no-repeat;
   background-position: center 25%;
-  background-size: 95%;
+  background-size: 100% 100%;
 }
 
 .xray-bg2 {
   color: white;
   min-height: 400px;
-  background-image: url(../images/office-tour/xray3.jpg);
+  background-image: url(../images/office-tour/xray2.jpg);
   background-repeat: no-repeat;
   background-position: center 35%;
-  background-size: 95%;
+  background-size: 100% 100%;
+}
+
+.xray-bg3 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/office-tour/xray4.jpg);
+  background-repeat: no-repeat;
+  background-position: center 35%;
+  background-size: 100% 100%;
+}
+
+.xray-bg4 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/office-tour/xray5.jpg);
+  background-repeat: no-repeat;
+  background-position: center 35%;
+  background-size: 100% 100%;
 }
 
 .lab-bg {
@@ -1764,7 +1832,7 @@ html {
   background-image: url(../images/office-tour/lab.jpg);
   background-repeat: no-repeat;
   background-position: center 25%;
-  background-size: 95%;
+  background-size: cover;
 }
 
 .lab-bg2 {
@@ -1773,7 +1841,7 @@ html {
   background-image: url(../images/office-tour/lab2.jpg);
   background-repeat: no-repeat;
   background-position: center 40%;
-  background-size: 95%;
+  background-size: cover;
 }
 
 .lab-bg3 {
@@ -1782,7 +1850,7 @@ html {
   background-image: url(../images/office-tour/lab3.jpg);
   background-repeat: no-repeat;
   background-position: center 65%;
-  background-size: 95%;
+  background-size: 100% 100%;
 }
 
 .of-bg12 {
@@ -1791,7 +1859,25 @@ html {
   background-image: url(../images/office-tour/tp.jpg);
   background-repeat: no-repeat;
   background-position: center 53%;
-  background-size: 95%;
+  background-size: 100% 100%;
+}
+
+.of-bg13 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/office-tour/tp2.jpg);
+  background-repeat: no-repeat;
+  background-position: center 53%;
+  background-size: 100% 100%;
+}
+
+.of-bg14 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/office-tour/tp3.jpg);
+  background-repeat: no-repeat;
+  background-position: center 53%;
+  background-size: 100% 100%;
 }
 
 .dodont-bg1 {
@@ -1878,10 +1964,19 @@ html {
   background-color: #d0c3dd;
 }
 
+.lost-bg1 {
+  color: white;
+  min-height: 400px;
+  background-image: url(../images/do-dont/lost.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .emergencies-bg1 {
   color: white;
   min-height: 400px;
-  background-image: url(../images/do-dont/biteblock.jpg);
+  background-image: url(../images/do-dont/biteblock2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1943,7 +2038,7 @@ html {
   background-image: url(../images/equipment/sleep-apnea5.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 
 .sleep-bg6 {
@@ -2085,6 +2180,18 @@ html {
   max-height: 120px;
 }
 
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 0px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
 .carousel-indicators {
   margin-right: 0 !important;
   margin-left: 0 !important;
@@ -2124,6 +2231,10 @@ html {
 
 /*Contact Us*/
 .carousel-bg6 {
+  min-height: 500px;
+}
+
+.carousel-bg-long {
   min-height: 500px;
 }
 
@@ -2208,7 +2319,7 @@ h2 {
   background-image: url(../images/home/location2.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: top;
   background-color: #855ea2;
 }
 
@@ -2547,7 +2658,7 @@ p10 {
 }
 
 .call {
-  color: yellow;
+  color: white;
   text-decoration: none;
 }
 
@@ -2560,5 +2671,39 @@ p10 {
 @media screen and (min-width:1900px) {
   body {
     font-size: 1.2rem;
+  }
+}
+
+.reverse, .reverse>* {
+  -moz-transform: scale(1, -1);
+  -webkit-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+@media screen and (min-width: 30.0rem) {
+  .img-width {
+    max-width: 98.85%;
+    flex: 0 0 98.85%;
+    margin: 5px;
+  }
+
+  .img-width2 {
+    max-width: 49%;
+    flex: 0 0 49%;
+    margin: 5px;
+  }
+
+  .img-width3 {
+    max-width: 33%;
+    flex: 0 0 33%;
+    margin: 5px;
+  }
+
+  .img-width4 {
+    max-width: 24%;
+    flex: 0 0 24%;
+    margin: 0.45%;
   }
 }
