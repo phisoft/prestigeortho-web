@@ -424,7 +424,7 @@
 
   .ws-bg128, .ws-bg129 {
     height: 300px;
-    background-size: contain;
+    background-size: cover;
   }
 
   .dodont-bg4 {

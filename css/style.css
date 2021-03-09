@@ -289,6 +289,8 @@ html {
   text-align: center;
   margin: auto;
   background-color: #d0a7cf;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .ws-contact i, .ws-contact-2 i {
@@ -740,7 +742,7 @@ html {
 
 .ws-bg29 {
   color: white;
-  height: 500px;
+  min-height: 500px;
   background-image: url(../images/our-team/dr.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -1560,7 +1562,7 @@ html {
 
 .ws-bg129 {
   color: white;
-  height: 450px;
+  height: 500px;
   background-image: url(../images/do-dont/braces.jpg);
   background-repeat: no-repeat;
   background-position: center;
