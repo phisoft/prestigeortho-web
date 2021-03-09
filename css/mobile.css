@@ -77,15 +77,10 @@
 
   .lab-bg {
     min-height: 250px;
-    margin-bottom: 5px;
   }
 
-  .lab-bg2 {
-    margin-bottom: 5px;
-  }
-
-  .of-bg10 {
-    margin-bottom: 5px;
+  .of-bg13 {
+    background-position: 23%;
   }
 
   .sleep-bg4 {
@@ -363,6 +358,7 @@
 
   .mobile-cover {
     background-size: cover;
+    margin-bottom: 5px;
   }
 
   .mobile-pad {
@@ -504,6 +500,11 @@
 /* ipad */
 @media screen and (min-width: 768px) and (max-width: 1280px) {
 
+  .mobile-cover {
+    background-size: cover;
+    margin: 5px;
+  }
+
   .col-sm-6 {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
@@ -538,6 +539,18 @@
 
   .ws-bg66, .ws-bg67 , .ws-bg68 , .ws-bg69-2  {
     height: 300px;
+  }
+
+  .img-width, .img-width2 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    margin: 5px;
+  }
+
+  .img-width3, .img-width4 {
+    max-width: 48.5%;
+    flex: 0 0 48.5%;
+    margin: 5px;
   }
 
 }
