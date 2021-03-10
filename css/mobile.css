@@ -35,11 +35,6 @@
     background-size: cover;
   }
 
-  .after {
-    padding-top: 0 !important;
-    margin-top: 50px;
-  }
-
   .pres-bg10 {
     height: 500px;
     border-left: none;
@@ -162,14 +157,12 @@
   }
 
   .before, .after {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
     position: absolute;
     left: 0;
-    font-size: 22px;
+    font-size: 18px;
+    background-color: #ffca2d;
+    top: 0;
+    color: black;
   }
 
   .ws-bg33, .ws-bg34, .ws-bg37, .ws-bg38, .ws-bg39, .ws-bg48, .ws-bg42, .ws-bg43, .ws-bg46, .ws-bg47, .ws-bg51, 
@@ -398,6 +391,10 @@
   .of-bg7, .of-bg8, .of-bg9 {
     min-height: 250px;
     margin-bottom: 5px;
+  }
+
+  .tech-bg2 {
+    min-height: 500px;
   }
 
   .ex-bg1 {

@@ -154,12 +154,10 @@ html {
   color: white;
   background-color: #6f3994;
   text-decoration: none;
-  margin: auto;
   margin-top: 30px;
-  width: 200px;
+  width: 150px;
   border-radius: 0.5em;
   text-align: center;
-  margin-right: 10px;
 }
 
 .ws-button:hover, .ws-button-2:hover {
@@ -1044,7 +1042,7 @@ html {
   background-image: url(../images/gallery/bf16.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 50%;
+  background-size: 80%;
 }
 
 .ws-bg72 {
@@ -1053,7 +1051,7 @@ html {
   background-image: url(../images/gallery/af16.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 50%;
+  background-size: 80%;
 }
 
 .ws-bg73 {
@@ -1381,6 +1379,7 @@ html {
   background-color: #bfa9d0;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
 }
 
 .ws-bg110 {
@@ -1389,6 +1388,7 @@ html {
   background-image: url(../images/gallery/crossbite-kids2.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #836b96;
 }
 
 .ws-bg111 {
@@ -1398,6 +1398,7 @@ html {
   background-color: #bfa9d0;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
 }
 
 .ws-bg112 {
@@ -1406,6 +1407,7 @@ html {
   background-image: url(../images/gallery/diastema-child2.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #836b96;
 }
 
 .ws-bg113 {
@@ -1415,6 +1417,7 @@ html {
   background-color: #bfa9d0;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
 }
 
 .ws-bg114 {
@@ -1423,6 +1426,7 @@ html {
   background-image: url(../images/gallery/deepbite-child2.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #836b96;
 }
 
 .ws-bg115 {
@@ -2039,6 +2043,7 @@ html {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  border: 5px solid #855ea2;
 }
 
 .sleep-bg6 {
@@ -2706,4 +2711,13 @@ p10 {
     flex: 0 0 24%;
     margin: 0.45%;
   }
+}
+
+.img-label {
+  background-color: #855ea2;
+  padding: 10px;
+  text-align: center;
+  right: 0;
+  color: white;
+  position: absolute;
 }
