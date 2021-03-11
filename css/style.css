@@ -1728,7 +1728,7 @@ html {
   background-image: url(../images/office-tour/treat1.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: 100% 100% !important;
 }
 
 .treat-bg2 {
@@ -1800,7 +1800,7 @@ html {
   background-image: url(../images/office-tour/xray.jpg);
   background-repeat: no-repeat;
   background-position: center 25%;
-  background-size: 100% 100%;
+  background-size: 100% 100% !important;
 }
 
 .xray-bg2 {
