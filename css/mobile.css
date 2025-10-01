@@ -14,10 +14,19 @@
     background-position: center 50%; 
   }
 
-  .carousel-bg2 {
+  .carousel-bg1 {
+    min-height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../images/home/bg-2nn.jpg);
+    background-image: url(../images/home/ban1-1.jpeg);
+    background-position: center;
+  }
+
+  .carousel-bg2 {
+    min-height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/home/ban2-1.jpeg);
     background-position: center;
   }
 

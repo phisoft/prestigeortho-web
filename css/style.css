@@ -32,6 +32,9 @@ html {
   width: 280px;
   border-right: 1px solid silver;
   text-align: center;
+
+  display: flex;
+  flex-direction: column;
 }
 
 #content-container {
@@ -64,7 +67,7 @@ html {
 }
 
 .ws-side-info {
-  margin-top: 10px;
+  margin-top: auto;
 
 }
 
@@ -2181,8 +2184,8 @@ html {
 }
 
 .lgo {
-  max-width: 150px;
-  max-height: 120px;
+  max-width: 200px;
+  max-height: 160px;
 }
 
 .carousel-caption {
@@ -2205,7 +2208,7 @@ html {
 .carousel-bg1 {
   min-height: 500px;
   background-repeat: no-repeat;
-  background-image: url(../images/home/ban1.jpg);
+  background-image: url(../images/home/ban1-1.jpeg);
   background-size: cover;
   background-position: center 30%;;
 }
@@ -2213,7 +2216,7 @@ html {
 .carousel-bg2 {
   min-height: 500px;
   background-repeat: no-repeat;
-  background-image: url(../images/home/ban2.jpg);
+  background-image: url(../images/home/ban2-1.jpeg);
   background-position: center;
   background-size: cover;
 }
